@@ -1,7 +1,7 @@
 import Image from 'public';
 export default function Home() {
   return (
-    <Image src="SPIRAVIRE_log.png" alt="SPIRAVIRE" width={300} height={100} priority />
+    <Image src="SPIRAVIRE_log.svg" alt="SPIRAVIRE" width={300} height={100} priority />
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-4xl font-bold mb-6">SPIRAVIRE Consortium</h1>
       <p>
