@@ -29,7 +29,7 @@ export default function RootLayout({
             <Image
               src="/SPIRAVIRE_log.png"
               alt="SPIRAVIRE logo"
-              width={70}
+              width={90}
               height={70}
             />
 
