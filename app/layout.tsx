@@ -1,8 +1,8 @@
 import "./globals.css";
-import { ReactNode } from "react";
 import Image from "next/image";
+import { ReactNode } from "react";
 
-export const metadata= {
+export const metadata = {
   title: "SPIRAVIRE Consortium",
   description: "Host-directed antivirals against RNA respiratory viruses",
 };
@@ -22,38 +22,24 @@ export default function RootLayout({
               margin: "0 auto",
               padding: "20px",
               display: "flex",
-              justifyContent: "space-between",
               alignItems: "center",
+              gap: "20px",
             }}
           >
+            <Image
+              src="/SPIRAVIRE_log.png"
+              alt="SPIRAVIRE logo"
+              width={70}
+              height={70}
+            />
 
-            {/* LOGÓTIPO + NOME */}
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "15px",
-              }}
-            >
-              <Image
-                src="/SPIRAVIRE_log.png"
-                alt="SPIRAVIRE logo"
-                width={70}
-                height={70}
-              />
-          
             <div>
-  <h2 style={{ margin: 0 }}>SPIRAVIRE</h2>
-  <div style={{ fontSize: "14px", color: "#666" }}>
-    Host-Directed Antivirals for RNA Respiratory Viruses
-  </div>
-</div>
+              <h2 style={{ margin: 0 }}>SPIRAVIRE</h2>
 
-            <nav>
-              <a href="/">Home</a>
-              <a href="/objectives">Objectives</a>
-              <a href="/publications">Publications</a>
-            </nav>
+              <div style={{ fontSize: "14px", color: "#666" }}>
+                Host-Directed Antivirals for RNA Respiratory Viruses
+              </div>
+            </div>
           </div>
         </header>
 
