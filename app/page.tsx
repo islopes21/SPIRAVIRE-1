@@ -82,6 +82,7 @@ export default function Home() {
               borderRadius: "8px",
               backgroundColor: "#f9fafb",
               textAlign: "center",
+              alignItems: "center",
             }}
           >
              
