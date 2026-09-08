@@ -18,6 +18,14 @@ export default function Home() {
         caused by RNA respiratory viruses.
       </p>
 
+      <div
+        style={{
+          height: "1px",
+          backgroundColor: "#e5e7eb",
+          margin: "60px 0",
+        }}
+        />
+
       {/* Consortium */}
       <h2 className="text-4xl font-bold mb-6 mt-16">
         Get to know us!
