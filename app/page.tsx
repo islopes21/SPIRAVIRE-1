@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function Home() {
   return (
     <main
@@ -8,7 +9,6 @@ export default function Home() {
         padding: "60px 24px",
       }}
     >
-
       {/* Título principal */}
       <h1
         style={{
@@ -52,7 +52,6 @@ export default function Home() {
 
       {/* Consortium */}
       <section>
-
         <h2
           style={{
             fontSize: "32px",
@@ -72,10 +71,8 @@ export default function Home() {
             gap: "24px",
             alignItems: "stretch",
           }}
-          >
-
+        >
           {/* CQC */}
-         
           <div
             style={{
               padding: "24px",
@@ -87,12 +84,10 @@ export default function Home() {
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
+              alignItems: "center",
               boxSizing: "border-box",
             }}
-            >,
-            }}
           >
-             
             <h3
               style={{
                 fontWeight: "bold",
@@ -102,12 +97,14 @@ export default function Home() {
             >
               Coimbra Chemistry Center (CQC)
             </h3>
+
             <Image
-               src="/cqc.png"
-               alt="CQC logo"
-               width={70}
-               height={70}
-               />
+              src="/cqc.png"
+              alt="CQC logo"
+              width={70}
+              height={70}
+            />
+
             <h4
               style={{
                 fontWeight: "bold",
@@ -120,7 +117,12 @@ export default function Home() {
               (PI: Prof. Teresa Pinho e Melo)
             </h4>
 
-            <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+            <p
+              style={{
+                fontSize: "14px",
+                lineHeight: "1.6",
+              }}
+            >
               Responsible for the production and optimization of
               spiro-β-lactams for better antiviral efficacy and
               medicinal chemistry properties.
@@ -139,9 +141,10 @@ export default function Home() {
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
+              alignItems: "center",
               boxSizing: "border-box",
             }}
-            >,
+          >
             <h3
               style={{
                 fontWeight: "bold",
@@ -151,12 +154,14 @@ export default function Home() {
             >
               iMed.ULisboa
             </h3>
+
             <Image
-               src="/imed.png"
-               alt="iMedULisboa logo"
-               width={70}
-               height={50}
-               />
+              src="/imed.png"
+              alt="iMed ULisboa logo"
+              width={70}
+              height={50}
+            />
+
             <h4
               style={{
                 fontWeight: "bold",
@@ -169,7 +174,12 @@ export default function Home() {
               (PI: Prof. Nuno Taveira)
             </h4>
 
-            <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+            <p
+              style={{
+                fontSize: "14px",
+                lineHeight: "1.6",
+              }}
+            >
               Evaluating antiviral activity across human and zoonotic
               respiratory viruses with pandemic potential.
             </p>
@@ -187,9 +197,10 @@ export default function Home() {
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
+              alignItems: "center",
               boxSizing: "border-box",
             }}
-            >,
+          >
             <h3
               style={{
                 fontWeight: "bold",
@@ -199,12 +210,14 @@ export default function Home() {
             >
               Católica Biomedical Research Center
             </h3>
+
             <Image
-               src="/CBR-Logo.png"
-               alt="CBR logo"
-               width={70}
-               height={50}
-               />
+              src="/CBR-Logo.png"
+              alt="CBR logo"
+              width={70}
+              height={50}
+            />
+
             <h4
               style={{
                 fontWeight: "bold",
@@ -217,16 +230,18 @@ export default function Home() {
               (PI: Prof. Marta Alenquer)
             </h4>
 
-            <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+            <p
+              style={{
+                fontSize: "14px",
+                lineHeight: "1.6",
+              }}
+            >
               Strengthening defenses against emerging viral respiratory
               infections and global health threats.
             </p>
           </div>
-
         </div>
-
       </section>
-
     </main>
   );
 }
