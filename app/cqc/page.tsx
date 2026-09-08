@@ -1,4 +1,4 @@
-export default function CQCPage() {
+export default function Home() {
   return (
     <main
       style={{
