@@ -1,14 +1,35 @@
+```tsx
 export default function Home() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-16">
+    <main
+      style={{
+        maxWidth: "1000px",
+        margin: "0 auto",
+        padding: "60px 24px",
+      }}
+    >
 
       {/* Título principal */}
-      <h1 className="text-4xl font-bold mb-6 text-center">
+      <h1
+        style={{
+          fontSize: "36px",
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: "24px",
+        }}
+      >
         SPIRAVIRE Consortium
       </h1>
 
-      {/* Introdução */}
-      <p className="mt-4 text-center">
+      {/* Texto introdutório */}
+      <p
+        style={{
+          textAlign: "center",
+          lineHeight: "1.7",
+          maxWidth: "850px",
+          margin: "0 auto",
+        }}
+      >
         The SPIRAVIRE consortium aims to develop innovative,
         broad-spectrum, host-directed antivirals against respiratory
         diseases caused by RNA viruses based on spiro-β-lactam compounds.
@@ -32,11 +53,18 @@ export default function Home() {
       {/* Consortium */}
       <section>
 
-        <h2 className="text-4xl font-bold mb-10 text-center">
+        <h2
+          style={{
+            fontSize: "32px",
+            fontWeight: "bold",
+            textAlign: "center",
+            marginBottom: "40px",
+          }}
+        >
           Get to know us!
         </h2>
 
-        {/* 3 colunas */}
+        {/* Três colunas */}
         <div
           style={{
             display: "grid",
@@ -45,65 +73,119 @@ export default function Home() {
           }}
         >
 
-          {/* Coimbra Chemistry Center */}
-          <div className="p-5 border rounded-lg bg-gray-50">
-
-            <h3 className="font-bold text-center mb-3">
+          {/* CQC */}
+          <div
+            style={{
+              padding: "24px",
+              border: "1px solid #e5e7eb",
+              borderRadius: "8px",
+              backgroundColor: "#f9fafb",
+              textAlign: "center",
+            }}
+          >
+            <h3
+              style={{
+                fontWeight: "bold",
+                fontSize: "18px",
+                marginBottom: "12px",
+              }}
+            >
               Coimbra Chemistry Center (CQC)
             </h3>
 
-            <h4 className="font-bold text-center mb-3">
+            <h4
+              style={{
+                fontWeight: "bold",
+                fontSize: "16px",
+                marginBottom: "12px",
+              }}
+            >
               Group of Organic Chemistry
               <br />
               (PI: Prof. Teresa Pinho e Melo)
             </h4>
 
-            <p className="text-center text-sm">
+            <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
               Responsible for the production and optimization of
               spiro-β-lactams for better antiviral efficacy and
               medicinal chemistry properties.
             </p>
-
           </div>
 
-          {/* iMed.ULisboa */}
-          <div className="p-5 border rounded-lg bg-gray-50">
-
-            <h3 className="font-bold text-center mb-3">
+          {/* iMed */}
+          <div
+            style={{
+              padding: "24px",
+              border: "1px solid #e5e7eb",
+              borderRadius: "8px",
+              backgroundColor: "#f9fafb",
+              textAlign: "center",
+            }}
+          >
+            <h3
+              style={{
+                fontWeight: "bold",
+                fontSize: "18px",
+                marginBottom: "12px",
+              }}
+            >
               iMed.ULisboa
             </h3>
 
-            <h4 className="font-bold text-center mb-3">
+            <h4
+              style={{
+                fontWeight: "bold",
+                fontSize: "16px",
+                marginBottom: "12px",
+              }}
+            >
               HEEP group
               <br />
               (PI: Prof. Nuno Taveira)
             </h4>
 
-            <p className="text-center text-sm">
+            <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
               Evaluating antiviral activity across human and zoonotic
               respiratory viruses with pandemic potential.
             </p>
-
           </div>
 
-          {/* Católica Biomedical Research Center */}
-          <div className="p-5 border rounded-lg bg-gray-50">
-
-            <h3 className="font-bold text-center mb-3">
+          {/* Católica */}
+          <div
+            style={{
+              padding: "24px",
+              border: "1px solid #e5e7eb",
+              borderRadius: "8px",
+              backgroundColor: "#f9fafb",
+              textAlign: "center",
+            }}
+          >
+            <h3
+              style={{
+                fontWeight: "bold",
+                fontSize: "18px",
+                marginBottom: "12px",
+              }}
+            >
               Católica Biomedical Research Center
             </h3>
 
-            <h4 className="font-bold text-center mb-3">
+            <h4
+              style={{
+                fontWeight: "bold",
+                fontSize: "16px",
+                marginBottom: "12px",
+              }}
+            >
               Cell Biology of Viral Infection Laboratory
               <br />
               (PI: Prof. Marta Alenquer)
             </h4>
 
-            <p className="text-center text-sm">
+            <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
               Strengthening defenses against emerging viral respiratory
               infections and global health threats.
             </p>
-
           </div>
 
         </div>
@@ -113,3 +195,4 @@ export default function Home() {
     </main>
   );
 }
+```
