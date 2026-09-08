@@ -30,7 +30,7 @@ export default function Home() {
       <div
   style={{
     display: "grid",
-    gridTemplateColumns: "repeat(2, 1fr)",
+    gridTemplateColumns: "repeat(3, 1fr)",
     gap: "30px",
   }}
 >
@@ -43,7 +43,7 @@ export default function Home() {
     }}
     >
     <Image
-      src="/research.jpg"
+      src="/Teresa.png"
       alt="Research"
       width={400}
       height={250}
@@ -62,7 +62,7 @@ export default function Home() {
     }}
     >
     <Image
-      src="/research.jpg"
+      src="/Americo.png"
       alt="Research"
       width={400}
       height={250}
@@ -70,6 +70,26 @@ export default function Home() {
     <h2>Américo Alves, PhD, MD
       (CiênciaID: A018-F2DF-D0C4)</h2>
   </div>
+{/* Coluna 3 */}
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: "60px",
+    }}
+    >
+    <Image
+      src="/Unknown.png"
+      alt="Research"
+      width={400}
+      height={250}
+    />
+    <h2>MSc researcher 
+      (to be recruited)</h2>
+
+  </div>
+
+        
     </main>
   );
 }
