@@ -172,6 +172,13 @@ export default function Home() {
             </Link>
             </h3>
 
+            <Image
+              src="/imed.png"
+              alt="iMedULisboa logo"
+              width={70}
+              height={50}
+            />
+
             <h4
               style={{
                 fontWeight: "bold",
