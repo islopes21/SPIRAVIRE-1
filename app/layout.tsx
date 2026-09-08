@@ -2,8 +2,9 @@ import "./globals.css";
 import { ReactNode } from "react";
 import Image from "next/image";
 
-return (
-    <main className="max-w-4xl mx-auto px-6 py-16">
+export default function Home() {
+  return (
+    <main>
       <Image 
                 src="/SPIRAVIRE_log.png" 
                 alt="SPIRAVIRE" 
