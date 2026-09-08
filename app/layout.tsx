@@ -1,5 +1,4 @@
 import "./globals.css";
-import Image from "next/image";
 import { ReactNode } from "react";
 
 export const metadata = {
@@ -16,86 +15,50 @@ export default function RootLayout({
     <html lang="en">
       <body>
 
-        {/* HEADER */}
         <header>
           <div
             style={{
               maxWidth: "1000px",
               margin: "0 auto",
-              padding: "20px 24px",
+              padding: "20px",
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
             }}
           >
+            <div>
+              <h2 style={{ margin: 0 }}>
+                SPIRAVIRE
+              </h2>
 
-            {/* LOGÓTIPO + NOME */}
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "15px",
-              }}
-            >
-              <Image
-                src="/SPIRAVIRE_log.png"
-                alt="SPIRAVIRE logo"
-                width={70}
-                height={70}
-              />
-
-              <div>
-                <h2
-                  style={{
-                    margin: 0,
-                    fontSize: "24px",
-                    fontWeight: "bold",
-                  }}
-                >
-                  SPIRAVIRE
-                </h2>
-
-                <div
-                  style={{
-                    fontSize: "14px",
-                    color: "#666",
-                    marginTop: "4px",
-                  }}
-                >
-                  Host-Directed Antivirals for RNA Respiratory Viruses
-                </div>
-              </div>
+              <p
+                style={{
+                  margin: "4px 0 0 0",
+                  fontSize: "14px",
+                  color: "#666",
+                }}
+              >
+                Host-Directed Antivirals for RNA Respiratory Viruses
+              </p>
             </div>
 
-            {/* MENU / ABAS */}
             <nav
               style={{
                 display: "flex",
                 gap: "24px",
               }}
             >
-              <a href="/">
-                Home
-              </a>
-
-              <a href="/objectives">
-                Objectives
-              </a>
-
-              <a href="/publications">
-                Publications
-              </a>
+              <a href="/">Home</a>
+              <a href="/objectives">Objectives</a>
+              <a href="/publications">Publications</a>
             </nav>
-
           </div>
         </header>
 
-        {/* CONTEÚDO DAS PÁGINAS */}
         <main>
           {children}
         </main>
 
-        {/* FOOTER */}
         <footer
           style={{
             textAlign: "center",
