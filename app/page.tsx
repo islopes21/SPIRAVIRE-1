@@ -1,11 +1,6 @@
 import Image from "next/image";
 export default function Home() {
   return (
-    <Image
-        src="/SPIRAVIRE_log.png"
-        alt="SPIRAVIRE"
-        width={300}
-        height={100}
     <main className="max-w-4xl mx-auto px-6 py-16">
       />
 
