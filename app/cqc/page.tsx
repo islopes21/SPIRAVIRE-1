@@ -27,69 +27,113 @@ export default function Home() {
       </p>
 
       <h2>Members:</h2>
-      <div
+     <h2
+  style={{
+    marginTop: "50px",
+    marginBottom: "30px",
+  }}
+>
+  Members
+</h2>
+
+<div
   style={{
     display: "grid",
     gridTemplateColumns: "repeat(3, 1fr)",
     gap: "30px",
   }}
 >
-  {/* Coluna 1 */}
+  {/* Teresa */}
   <div
     style={{
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: "60px",
+      textAlign: "center",
     }}
-    >
+  >
     <Image
       src="/Teresa.png"
-      alt="Research"
-      width={400}
-      height={250}
+      alt="Teresa Pinho e Melo"
+      width={200}
+      height={200}
+      style={{
+        objectFit: "contain",
+      }}
     />
-    <h2>Teresa Pinho e Melo, PhD, MD
-      (CiênciaID: 9A1E-2767-EEE1)</h2>
 
+    <h3
+      style={{
+        fontSize: "18px",
+        marginTop: "15px",
+      }}
+    >
+      Teresa Pinho e Melo, PhD, MD
+    </h3>
+
+    <p>
+      CiênciaID: 9A1E-2767-EEE1
+    </p>
   </div>
 
-  {/* Coluna 2 */}
+  {/* Américo */}
   <div
     style={{
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: "60px",
+      textAlign: "center",
     }}
-    >
+  >
     <Image
       src="/Americo.png"
-      alt="Research"
-      width={400}
-      height={250}
+      alt="Américo Alves"
+      width={200}
+      height={200}
+      style={{
+        objectFit: "contain",
+      }}
     />
-    <h2>Américo Alves, PhD, MD
-      (CiênciaID: A018-F2DF-D0C4)</h2>
+
+    <h3
+      style={{
+        fontSize: "18px",
+        marginTop: "15px",
+      }}
+    >
+      Américo Alves, PhD, MD
+    </h3>
+
+    <p>
+      CiênciaID: A018-F2DF-D0C4
+    </p>
   </div>
-{/* Coluna 3 */}
+
+  {/* MSc researcher */}
   <div
     style={{
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: "60px",
+      textAlign: "center",
     }}
-    >
+  >
     <Image
       src="/Unknown.png"
-      alt="Research"
-      width={400}
-      height={250}
+      alt="MSc researcher"
+      width={200}
+      height={200}
+      style={{
+        objectFit: "contain",
+      }}
     />
-    <h2>MSc researcher 
-      (to be recruited)</h2>
 
+    <h3
+      style={{
+        fontSize: "18px",
+        marginTop: "15px",
+      }}
+    >
+      MSc researcher
+    </h3>
+
+    <p>
+      To be recruited
+    </p>
   </div>
-
-        
+</div>
+      
     </main>
   );
 }
