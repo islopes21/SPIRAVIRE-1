@@ -18,9 +18,7 @@ export default function Home() {
       </p>
 
       <p className="mt-4">
-        The SPIRAVIRE consortium develops broad-spectrum, host-directed
-        antivirals against RNA respiratory viruses to improve global
-        preparedness.
+        The SPIRAVIRE consortium aims to develop innovative, broad-spectrum, host-directed antivirals against respiratory diseases caused by RNA viruses based on spiro-β-lactam compounds. This effort was prompted by the landmark discovery that some spiro-β-lactams have remarkable activity against diverse viruses, including HIV-1, HIV-2, influenza A and B viruses and SARS-CoV-2. The urgency for such broad-spectrum antivirals is highlighted by the need to improve global preparedness for potential epidemics caused by RNA respiratory viruses.
       </p>
     </main>
   );
