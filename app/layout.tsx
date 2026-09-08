@@ -2,6 +2,11 @@ import "./globals.css";
 import { ReactNode } from "react";
 
 export const metadata = {
+  <Image
+        src="/SPIRAVIRE_log.png"
+        alt="SPIRAVIRE"
+        width={100}
+        height={50}
   title: "SPIRAVIRE Consortium",
   description: "Host-directed antivirals against RNA respiratory viruses",
 };
