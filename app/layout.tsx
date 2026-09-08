@@ -22,7 +22,8 @@ export default function RootLayout({
                 src="/SPIRAVIRE_log.png" 
                 alt="SPIRAVIRE" 
                 width={50} 
-                height={50}
+                height={50} 
+              />
             <div>
   <h2 style={{ margin: 0 }}>SPIRAVIRE</h2>
   <div style={{ fontSize: "14px", color: "#666" }}>
