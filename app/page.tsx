@@ -152,7 +152,7 @@ export default function Home() {
                 marginBottom: "12px",
               }}
             >
-              iMed.ULisboa
+              iMed.ULisboa (Faculty of Farmacy, ULisboa)
             </h3>
 
             <Image
@@ -208,7 +208,7 @@ export default function Home() {
                 marginBottom: "12px",
               }}
             >
-              Católica Biomedical Research Center
+              Católica Biomedical Research Center (CBR)
             </h3>
 
             <Image
