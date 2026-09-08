@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <main
@@ -73,6 +74,7 @@ export default function Home() {
         >
 
           {/* CQC */}
+         
           <div
             style={{
               padding: "24px",
@@ -82,6 +84,7 @@ export default function Home() {
               textAlign: "center",
             }}
           >
+             
             <h3
               style={{
                 fontWeight: "bold",
@@ -91,7 +94,12 @@ export default function Home() {
             >
               Coimbra Chemistry Center (CQC)
             </h3>
-
+            <Image
+               src="/SPIRAVIRE_log.png"
+               alt="SPIRAVIRE logo"
+               width={150}
+               height={150}
+               />
             <h4
               style={{
                 fontWeight: "bold",
@@ -130,7 +138,12 @@ export default function Home() {
             >
               iMed.ULisboa
             </h3>
-
+            <Image
+               src="/SPIRAVIRE_log.png"
+               alt="SPIRAVIRE logo"
+               width={150}
+               height={150}
+               />
             <h4
               style={{
                 fontWeight: "bold",
@@ -168,7 +181,12 @@ export default function Home() {
             >
               Católica Biomedical Research Center
             </h3>
-
+            <Image
+               src="/SPIRAVIRE_log.png"
+               alt="SPIRAVIRE logo"
+               width={150}
+               height={150}
+               />
             <h4
               style={{
                 fontWeight: "bold",
