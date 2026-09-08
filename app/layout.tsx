@@ -2,6 +2,12 @@ import "./globals.css";
 import { ReactNode } from "react";
 import Image from "next/image";
 
+<Image 
+                src="/SPIRAVIRE_log.png" 
+                alt="SPIRAVIRE" 
+                width={50} 
+                height={50} 
+              />
 export const metadata = {
   title: "SPIRAVIRE Consortium",
   description: "Host-directed antivirals against RNA respiratory viruses",
@@ -17,13 +23,7 @@ export default function RootLayout({
       <body>
         <header>
           <div style={{maxWidth: "1000px", margin: "0 auto", padding: "20px", display: "flex", justifyContent: "space-between", alignItems: "center"}}>
-            <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-              <Image 
-                src="/SPIRAVIRE_log.png" 
-                alt="SPIRAVIRE" 
-                width={50} 
-                height={50} 
-              />
+          
             <div>
   <h2 style={{ margin: 0 }}>SPIRAVIRE</h2>
   <div style={{ fontSize: "14px", color: "#666" }}>
