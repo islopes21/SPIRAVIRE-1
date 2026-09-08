@@ -23,7 +23,13 @@ export default function Home() {
         Get to know us!
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          gap: "24px",
+        }}
+        >
 
         <div className="p-5 border rounded-lg bg-gray-50">
           <h3 className="font-bold text-lg mb-2">
