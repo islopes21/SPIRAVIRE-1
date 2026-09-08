@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -94,8 +95,16 @@ export default function Home() {
                 fontSize: "18px",
                 marginBottom: "12px",
               }}
-            >
+              >
+            <Link
+              href="/cqc"
+              style={{
+                color: "inherit",
+                textDecoration: "none",
+              }}
+              >
               Coimbra Chemistry Center (CQC)
+            </Link>
             </h3>
 
             <Image
@@ -151,16 +160,17 @@ export default function Home() {
                 fontSize: "18px",
                 marginBottom: "12px",
               }}
-            >
+              >
+            <Link
+              href="/cqc"
+              style={{
+                color: "inherit",
+                textDecoration: "none",
+              }}
+              >
               iMed.ULisboa (Faculty of Farmacy, ULisboa)
+            </Link>
             </h3>
-
-            <Image
-              src="/imed.png"
-              alt="iMed ULisboa logo"
-              width={70}
-              height={50}
-            />
 
             <h4
               style={{
@@ -207,8 +217,16 @@ export default function Home() {
                 fontSize: "18px",
                 marginBottom: "12px",
               }}
-            >
+              >
+            <Link
+              href="/cqc"
+              style={{
+                color: "inherit",
+                textDecoration: "none",
+              }}
+              >
               Católica Biomedical Research Center (CBR)
+            </Link>
             </h3>
 
             <Image
