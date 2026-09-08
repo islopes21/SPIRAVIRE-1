@@ -15,14 +15,8 @@ export default function Home() {
           marginBottom: "30px",
         }}
       >
-        Coimbra Chemistry Center (CQC)
+        Group of Organic Chemistry
       </h1>
-
-      <h2>Group of Organic Chemistry</h2>
-
-      <p>
-        PI: Prof. Teresa Pinho e Melo
-      </p>
 
       <h2>About the group</h2>
 
@@ -31,7 +25,7 @@ export default function Home() {
         Group of Organic Chemistry can be added here.
       </p>
 
-      <h2>Contribution to SPIRAVIRE</h2>
+      <h2>Members:</h2>
 
       <p>
         The CQC team is responsible for the production and
