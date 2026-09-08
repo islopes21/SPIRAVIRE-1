@@ -70,8 +70,9 @@ export default function Home() {
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
             gap: "24px",
+            alignItems: "stretch",
           }}
-        >
+          >
 
           {/* CQC */}
          
@@ -82,7 +83,13 @@ export default function Home() {
               borderRadius: "8px",
               backgroundColor: "#f9fafb",
               textAlign: "center",
-              alignItems: "center",
+              minHeight: "300px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              boxSizing: "border-box",
+            }}
+            >
             }}
           >
              
@@ -128,8 +135,13 @@ export default function Home() {
               borderRadius: "8px",
               backgroundColor: "#f9fafb",
               textAlign: "center",
+              minHeight: "300px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              boxSizing: "border-box",
             }}
-          >
+            >
             <h3
               style={{
                 fontWeight: "bold",
@@ -171,8 +183,13 @@ export default function Home() {
               borderRadius: "8px",
               backgroundColor: "#f9fafb",
               textAlign: "center",
+              minHeight: "300px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              boxSizing: "border-box",
             }}
-          >
+            >
             <h3
               style={{
                 fontWeight: "bold",
