@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main
@@ -18,20 +20,76 @@ export default function Home() {
         Group of Organic Chemistry
       </h1>
 
-      <h2>About the group</h2>
+      <h2>About the group...</h2>
 
       <p>
-        Information about the Coimbra Chemistry Center and the
-        Group of Organic Chemistry can be added here.
+        The Organic Chemistry Group at CQC is fully equipped with the necessary equipment and glassware for synthetic organic chemistry work. The laboratory equipment includes synthetic organic chemistry equipment such as microwave reactor, flow chemistry equipment, flash vacuum pyrolysis and ball mill. A variety of analytical tools are available in the laboratory, including elemental analysis, chiral HPLC, chiral GC, ATR-FTIR and UV/Vis spectroscopy.
       </p>
 
       <h2>Members:</h2>
+      <div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(3, 1fr)",
+    gap: "30px",
+  }}
+>
+  {/* Coluna 1 */}
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: "60px",
+    }}
+    >
+    <Image
+      src="/Teresa.png"
+      alt="Research"
+      width={400}
+      height={250}
+    />
+    <h2>Teresa Pinho e Melo, PhD, MD
+      (CiênciaID: 9A1E-2767-EEE1)</h2>
 
-      <p>
-        The CQC team is responsible for the production and
-        optimization of spiro-β-lactams for improved antiviral
-        efficacy and medicinal chemistry properties.
-      </p>
+  </div>
+
+  {/* Coluna 2 */}
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: "60px",
+    }}
+    >
+    <Image
+      src="/Americo.png"
+      alt="Research"
+      width={400}
+      height={250}
+    />
+    <h2>Américo Alves, PhD, MD
+      (CiênciaID: A018-F2DF-D0C4)</h2>
+  </div>
+{/* Coluna 3 */}
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: "60px",
+    }}
+    >
+    <Image
+      src="/Unknown.png"
+      alt="Research"
+      width={400}
+      height={250}
+    />
+    <h2>MSc researcher 
+      (to be recruited)</h2>
+
+  </div>
+
+        
     </main>
   );
 }
