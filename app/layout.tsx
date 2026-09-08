@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./globals.css";
 import { ReactNode } from "react";
 
@@ -14,7 +15,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-
         <header>
           <div
             style={{
@@ -26,22 +26,39 @@ export default function RootLayout({
               alignItems: "center",
             }}
           >
-            <div>
-              <h2 style={{ margin: 0 }}>
-                SPIRAVIRE
-              </h2>
+            {/* Logo + nome */}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "15px",
+              }}
+            >
+              <Image
+                src="/SPIRAVIRE_log.png"
+                alt="SPIRAVIRE logo"
+                width={70}
+                height={70}
+              />
 
-              <p
-                style={{
-                  margin: "4px 0 0 0",
-                  fontSize: "14px",
-                  color: "#666",
-                }}
-              >
-                Host-Directed Antivirals for RNA Respiratory Viruses
-              </p>
+              <div>
+                <h2 style={{ margin: 0 }}>
+                  SPIRAVIRE
+                </h2>
+
+                <p
+                  style={{
+                    margin: "4px 0 0 0",
+                    fontSize: "14px",
+                    color: "#666",
+                  }}
+                >
+                  Host-Directed Antivirals for RNA Respiratory Viruses
+                </p>
+              </div>
             </div>
 
+            {/* Navegação */}
             <nav
               style={{
                 display: "flex",
@@ -69,7 +86,6 @@ export default function RootLayout({
         >
           © {new Date().getFullYear()} SPIRAVIRE Consortium
         </footer>
-
       </body>
     </html>
   );
