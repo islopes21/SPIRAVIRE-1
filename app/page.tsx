@@ -27,7 +27,8 @@ export default function Home() {
         />
 
       {/* Consortium */}
-      <h2 className="text-4xl font-bold mb-6 mt-16">
+      <section className="text-center">
+      <h2 className="text-4xl font-bold mb-6">
         Get to know us!
       </h2>
 
@@ -40,16 +41,16 @@ export default function Home() {
         >
 
         <div className="p-5 border rounded-lg bg-gray-50">
-          <h3 className="font-bold text-lg mb-2">
+          <h3 className="font-bold text-center mb-2">
             Coimbra Chemistry Center (CQC)
           </h3>
 
-          <h4 className="font-bold text-lg mb-2">
+          <h4 className="font-bold text-center mb-2">
             Group of Organic Chemistry
             (PI: Prof. Teresa Pinho e Melo)
           </h4>
 
-          <p className="text-sm">
+          <p className="text-center">
             Responsible for the production and optimization of
             spiro-β-lactams for better antiviral efficacy and
             medicinal chemistry properties.
@@ -57,31 +58,31 @@ export default function Home() {
         </div>
 
         <div className="p-5 border rounded-lg bg-gray-50">
-          <h3 className="font-bold text-lg mb-2">
+          <h3 className="font-bold text-center mb-2">
             iMed.ULisboa
           </h3>
 
-          <h4 className="font-bold text-lg mb-2">
+          <h4 className="font-bold text-center mb-2">
             HEEP group (PI: Prof. Nuno Taveira)
           </h4>
 
-          <p className="text-sm">
+          <p className="text-center">
             Evaluating antiviral activity across human and zoonotic
             respiratory viruses with pandemic potential.
           </p>
         </div>
 
         <div className="p-5 border rounded-lg bg-gray-50">
-          <h3 className="font-bold text-lg mb-2">
+          <h3 className="font-bold text-center mb-2">
             Católica Biomedical Research Center
           </h3>
 
-          <h4 className="font-bold text-lg mb-2">
+          <h4 className="font-bold text-center mb-2">
             Cell Biology of Viral Infection Laboratory
             (PI: Prof. Marta Alenquer)
           </h4>
 
-          <p className="text-sm">
+          <p className="text-center">
             Strengthening defenses against emerging viral respiratory
             infections and global health threats.
           </p>
