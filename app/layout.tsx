@@ -11,7 +11,8 @@ export default function Home() {
                 width={50} 
                 height={50} 
               />
-export const metadata = {
+
+export const metadata= {
   title: "SPIRAVIRE Consortium",
   description: "Host-directed antivirals against RNA respiratory viruses",
 };
