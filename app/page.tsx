@@ -95,8 +95,8 @@ export default function Home() {
               Coimbra Chemistry Center (CQC)
             </h3>
             <Image
-               src="/SPIRAVIRE_log.png"
-               alt="SPIRAVIRE logo"
+               src="/cqc.png"
+               alt="CQC logo"
                width={150}
                height={150}
                />
@@ -139,8 +139,8 @@ export default function Home() {
               iMed.ULisboa
             </h3>
             <Image
-               src="/SPIRAVIRE_log.png"
-               alt="SPIRAVIRE logo"
+               src="/imed.png"
+               alt="iMedULisboa logo"
                width={150}
                height={150}
                />
@@ -182,8 +182,8 @@ export default function Home() {
               Católica Biomedical Research Center
             </h3>
             <Image
-               src="/SPIRAVIRE_log.png"
-               alt="SPIRAVIRE logo"
+               src="/CBR-Logo.png"
+               alt="CBR logo"
                width={150}
                height={150}
                />
