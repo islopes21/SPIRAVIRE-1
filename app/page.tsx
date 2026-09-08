@@ -89,7 +89,7 @@ export default function Home() {
               justifyContent: "center",
               boxSizing: "border-box",
             }}
-            >
+            >,
             }}
           >
              
@@ -141,7 +141,7 @@ export default function Home() {
               justifyContent: "center",
               boxSizing: "border-box",
             }}
-            >
+            >,
             <h3
               style={{
                 fontWeight: "bold",
@@ -189,7 +189,7 @@ export default function Home() {
               justifyContent: "center",
               boxSizing: "border-box",
             }}
-            >
+            >,
             <h3
               style={{
                 fontWeight: "bold",
