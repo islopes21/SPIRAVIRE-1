@@ -2,7 +2,9 @@ import "./globals.css";
 import { ReactNode } from "react";
 import Image from "next/image";
 
-<Image 
+return (
+    <main className="max-w-4xl mx-auto px-6 py-16">
+      <Image 
                 src="/SPIRAVIRE_log.png" 
                 alt="SPIRAVIRE" 
                 width={50} 
