@@ -52,13 +52,9 @@ export default function Home() {
             style={{ objectFit: "contain" }}
           />
 
-          <h3>
-            Teresa Pinho e Melo, PhD, MD
-          </h3>
+          <h3>Teresa Pinho e Melo, PhD, MD</h3>
 
-          <p>
-            CiênciaID: 9A1E-2767-EEE1
-          </p>
+          <p>CiênciaID: 9A1E-2767-EEE1</p>
         </div>
 
         {/* Américo */}
@@ -71,13 +67,9 @@ export default function Home() {
             style={{ objectFit: "contain" }}
           />
 
-          <h3>
-            Américo Alves, PhD, MD
-          </h3>
+          <h3>Américo Alves, PhD, MD</h3>
 
-          <p>
-            CiênciaID: A018-F2DF-D0C4
-          </p>
+          <p>CiênciaID: A018-F2DF-D0C4</p>
         </div>
 
         {/* MSc researcher */}
@@ -90,13 +82,9 @@ export default function Home() {
             style={{ objectFit: "contain" }}
           />
 
-          <h3>
-            MSc researcher
-          </h3>
+          <h3>MSc researcher</h3>
 
-          <p>
-            To be recruited
-          </p>
+          <p>To be recruited</p>
         </div>
       </div>
     </main>
