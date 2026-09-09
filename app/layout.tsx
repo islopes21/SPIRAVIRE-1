@@ -73,10 +73,16 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main>
-          {children}
-        </main>
-
+        <main
+  style={{
+    maxWidth: "1600px",
+    margin: "0 auto",
+    padding: "50px 40px",
+    boxSizing: "border-box",
+  }}
+>
+  {children}
+</main>
         {/* Footer */}
         <footer
           style={{
