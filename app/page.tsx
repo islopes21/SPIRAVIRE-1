@@ -195,7 +195,7 @@ export default function Home() {
             <Image
               src="/cqc.png"
               alt="CQC logo"
-              width={90}
+              width={100}
               height={70}
             />
 
