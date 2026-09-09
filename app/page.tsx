@@ -94,6 +94,38 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Palavras-chave */}
+<div
+  style={{
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "10px",
+    marginTop: "24px",
+  }}
+>
+  {[
+    "Host-directed antivirals",
+    "RNA viruses",
+    "Respiratory viruses",
+    "Spiro-β-lactams",
+    "Broad-spectrum antivirals",
+  ].map((keyword) => (
+    <span
+      key={keyword}
+      style={{
+        padding: "8px 14px",
+        borderRadius: "20px",
+        backgroundColor: "#f3f7fb",
+        border: "1px solid #dbe5ee",
+        fontSize: "13px",
+        fontWeight: "500",
+      }}
+    >
+      {keyword}
+    </span>
+  ))}
+</div>
+      
       {/* Separador */}
       <div
         style={{
