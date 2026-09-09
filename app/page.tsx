@@ -162,7 +162,7 @@ export default function Home() {
               }}
               >
             <Link
-              href="/cqc"
+              href="/imed"
               style={{
                 color: "inherit",
                 textDecoration: "none",
@@ -226,7 +226,7 @@ export default function Home() {
               }}
               >
             <Link
-              href="/cqc"
+              href="/CBR"
               style={{
                 color: "inherit",
                 textDecoration: "none",
