@@ -76,55 +76,57 @@ export default function RootLayout({
           {children}
         </main>
 
+        {/* Footer */}
         <footer
           style={{
-            textAlign: "right",
+            maxWidth: "1000px",
+            margin: "60px auto 0",
             padding: "40px 20px",
             color: "#666",
             fontSize: "14px",
           }}
         >
-          CONSORTIUM HUB
-          Project Overview
-          Research Objectives
-          Publications & Related
-          </>          
-        >
-        style={{
-            textAlign: "center",
-            padding: "40px 20px",
-            color: "#666",
-            fontSize: "14px",
-          }}
-        >
-          PARTNER INSTITUTIONS
-          CQC - Coimbra University
-          iMed.ULisboa - Farmacy Faculty, ULisboa
-          CBR - Portuguese Catholic University
-        </> 
-        </footer>
-
-        >                     
+          <div
             style={{
-            textAlign: "center",
-            padding: "40px 20px",
-            color: "#666",
-            fontSize: "14px",
-          }}
-        >
-          PROJECT FINANCING
-          FCT - Fundação da Ciência e Tecnologia
-        </> 
-        
-        <footer
-          style={{
-            textAlign: "center",
-            padding: "40px 20px",
-            color: "#666",
-            fontSize: "14px",
-          }}
-        >
-          © {new Date().getFullYear()} SPIRAVIRE Consortium. All rights reserved.
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              gap: "40px",
+            }}
+          >
+            {/* Consortium Hub */}
+            <div>
+              <h3>CONSORTIUM HUB</h3>
+              <p>Project Overview</p>
+              <p>Research Objectives</p>
+              <p>Publications & Related</p>
+            </div>
+
+            {/* Partner Institutions */}
+            <div>
+              <h3>PARTNER INSTITUTIONS</h3>
+              <p>CQC - Coimbra University</p>
+              <p>iMed.ULisboa - Faculty of Pharmacy, ULisboa</p>
+              <p>CBR - Portuguese Catholic University</p>
+            </div>
+
+            {/* Project Financing */}
+            <div>
+              <h3>PROJECT FINANCING</h3>
+              <p>FCT - Fundação da Ciência e Tecnologia</p>
+            </div>
+          </div>
+
+          <div
+            style={{
+              textAlign: "center",
+              marginTop: "40px",
+              paddingTop: "20px",
+              borderTop: "1px solid #ddd",
+            }}
+          >
+            © {new Date().getFullYear()} SPIRAVIRE Consortium. All rights
+            reserved.
+          </div>
         </footer>
       </body>
     </html>
