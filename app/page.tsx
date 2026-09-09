@@ -10,6 +10,15 @@ const images = [
   "/cbrlab.png",
 ];
 
+const keywords = [
+  "RNA Viruses",
+  "Respiratory Tract Infections",
+  "Spiro-β-lactam Compounds",
+  "Therapeutics",
+  "Animal Experimentation",
+  "mRNA Sequence Analysis",
+];
+
 export default function Home() {
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -91,40 +100,34 @@ export default function Home() {
             the need to improve global preparedness for potential epidemics
             caused by RNA respiratory viruses.
           </p>
+        </div>
+      </div>
 
-          {/* Palavras-chave */}
-          <div
+      {/* Palavras-chave */}
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "10px",
+          marginTop: "30px",
+        }}
+      >
+        {keywords.map((keyword) => (
+          <span
+            key={keyword}
             style={{
-              display: "flex",
-              flexWrap: "wrap",
-              gap: "10px",
-              marginTop: "24px",
+              padding: "8px 14px",
+              borderRadius: "20px",
+              backgroundColor: "#f3f7fb",
+              border: "1px solid #dbe5ee",
+              fontSize: "13px",
+              fontWeight: "500",
             }}
           >
-            {[
-              "RNA Viruses",
-              "Respiratory Tract Infections",
-              "Spiro-β-lactam compounds",
-              "Therapeutics",
-              "Animal experimentation",
-              "mRNA Sequence Analysis",
-            ].map((keyword) => (
-              <span
-                key={keyword}
-                style={{
-                  padding: "8px 14px",
-                  borderRadius: "20px",
-                  backgroundColor: "#f3f7fb",
-                  border: "1px solid #dbe5ee",
-                  fontSize: "13px",
-                  fontWeight: "500",
-                }}
-              >
-                {keyword}
-              </span>
-            ))}
-          </div>
-        </div>
+            {keyword}
+          </span>
+        ))}
       </div>
 
       {/* Separador */}
@@ -149,7 +152,7 @@ export default function Home() {
           Get to know us!
         </h2>
 
-        {/* Três colunas */}
+        {/* Três instituições */}
         <div
           style={{
             display: "grid",
@@ -275,7 +278,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Católica */}
+          {/* CBR */}
           <div
             style={{
               padding: "24px",
