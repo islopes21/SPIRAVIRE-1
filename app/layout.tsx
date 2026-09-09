@@ -78,13 +78,53 @@ export default function RootLayout({
 
         <footer
           style={{
+            textAlign: "right",
+            padding: "40px 20px",
+            color: "#666",
+            fontSize: "14px",
+          }}
+        >
+          CONSORTIUM HUB
+          Project Overview
+          Research Objectives
+          Publications & Related
+          </>          
+        >
+        style={{
             textAlign: "center",
             padding: "40px 20px",
             color: "#666",
             fontSize: "14px",
           }}
         >
-          © {new Date().getFullYear()} SPIRAVIRE Consortium
+          PARTNER INSTITUTIONS
+          CQC - Coimbra University
+          iMed.ULisboa - Farmacy Faculty, ULisboa
+          CBR - Portuguese Catholic University
+        </> 
+        </footer>
+
+        >                     
+            style={{
+            textAlign: "center",
+            padding: "40px 20px",
+            color: "#666",
+            fontSize: "14px",
+          }}
+        >
+          PROJECT FINANCING
+          FCT - Fundação da Ciência e Tecnologia
+        </> 
+        
+        <footer
+          style={{
+            textAlign: "center",
+            padding: "40px 20px",
+            color: "#666",
+            fontSize: "14px",
+          }}
+        >
+          © {new Date().getFullYear()} SPIRAVIRE Consortium. All rights reserved.
         </footer>
       </body>
     </html>
