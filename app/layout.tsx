@@ -50,7 +50,7 @@ export default function RootLayout({
                   style={{
                     margin: "4px 0 0 0",
                     fontSize: "14px",
-                    color: "#309bae",
+                    color: "#666",
                   }}
                 >
                   Host-Directed Antivirals for RNA Respiratory Viruses
@@ -82,7 +82,7 @@ export default function RootLayout({
             maxWidth: "1000px",
             margin: "60px auto 0",
             padding: "40px 20px",
-            color: "#309bae",
+            color: "#666",
             fontSize: "12px",
           }}
         >
