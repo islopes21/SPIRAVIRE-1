@@ -60,30 +60,24 @@ export default function RootLayout({
             </div>
 
             {/* Navegação */}
-            <nav
-              style={{
-                display: "flex",
-                gap: "24px",
-              }}
-            >
-              <a href="/">Home</a>
-              <a href="/project">Overview</a>
-              <a href="/objectives">Objectives</a>
-              <a href="/publications">Publications</a>
-            </nav>
-          </div>
-        </header>
+<div className="hamburger-menu">
+  <div
+    className="hamburger-icon"
+    aria-label="Open navigation menu"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 
-        <main
-  style={{
-    maxWidth: "1600px",
-    margin: "0 auto",
-    padding: "50px 40px",
-    boxSizing: "border-box",
-  }}
->
-  {children}
-</main>
+  <nav className="hamburger-dropdown">
+    <Link href="/">Home</Link>
+    <Link href="/project">Overview</Link>
+    <Link href="/objectives">Objectives</Link>
+    <Link href="/publications">Publications</Link>
+  </nav>
+</div>
+    
         {/* Footer */}
         <footer
           style={{
