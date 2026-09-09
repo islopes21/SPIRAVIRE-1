@@ -1,9 +1,9 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  background-color: #ffffff;
-  color: #222;
+  font-family: "Plus Jakarta Sans", "Inter", "Space Grotesk";
+  background-color: #F8FAFC;
+  color: #0F172A, #0D9488, #06B6D4;
 }
 
 header {
