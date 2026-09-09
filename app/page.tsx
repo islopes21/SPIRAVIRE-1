@@ -104,11 +104,7 @@ export default function Home() {
   }}
 >
   {[
-    "Host-directed antivirals",
-    "RNA viruses",
-    "Respiratory viruses",
-    "Spiro-β-lactams",
-    "Broad-spectrum antivirals",
+    "RNA Viruses"; "Respiratory Tract Infections";"Spiro-β-lactam compounds"; "Therapeutics"; "Animal experimentation"; "mRNA Sequence Analysis"
   ].map((keyword) => (
     <span
       key={keyword}
