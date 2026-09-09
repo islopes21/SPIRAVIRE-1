@@ -61,7 +61,7 @@ export default function Home() {
         <div style={{ textAlign: "center" }}>
           <Image
             src="/Americo.png"
-            alt="Américo Alves"
+            alt="Americo Alves"
             width={200}
             height={200}
             style={{ objectFit: "contain" }}
