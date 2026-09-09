@@ -67,6 +67,7 @@ export default function RootLayout({
               }}
             >
               <a href="/">Home</a>
+              <a href="/">Project</a>
               <a href="/objectives">Objectives</a>
               <a href="/publications">Publications</a>
             </nav>
