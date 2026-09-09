@@ -17,19 +17,13 @@ export default function Home() {
           marginBottom: "30px",
         }}
       >
-        Group of Organic Chemistry
+        HIV Evolution, Epidemiology and Prevention (HEEP) group
       </h1>
 
       <h2>About the group...</h2>
 
       <p style={{ lineHeight: "1.7" }}>
-        The Organic Chemistry Group at CQC is fully equipped with the
-        necessary equipment and glassware for synthetic organic chemistry
-        work. The laboratory equipment includes synthetic organic chemistry
-        equipment such as microwave reactor, flow chemistry equipment,
-        flash vacuum pyrolysis and ball mill. A variety of analytical tools
-        are available in the laboratory, including elemental analysis,
-        chiral HPLC, chiral GC, ATR-FTIR and UV/Vis spectroscopy.
+        The iMEd.ULisboa infrastructures include a fully equipped BLS2 and BSL3 laboratory, that will be used for all virological work. The RNA transcriptome analysis will be performed by a specialized CRO in Germany, and the subsequent molecular biology work will be performed at iMEd.Ulisboa and Egas Moniz School of Health and Science (CiiEM). These research centers are equipped with state of the art facilities for proteomic analysis, gene editing and cell culture work. 
       </p>
 
       <h2 style={{ marginTop: "50px" }}>Members</h2>
@@ -42,49 +36,49 @@ export default function Home() {
           marginTop: "30px",
         }}
       >
-        {/* Teresa */}
+        {/* Nuno */}
         <div style={{ textAlign: "center" }}>
           <Image
-            src="/Teresa.png"
-            alt="Teresa Pinho e Melo"
+            src="/Nuno.png"
+            alt="Nuno Taveira"
             width={200}
             height={200}
             style={{ objectFit: "contain" }}
           />
 
-          <h3>Teresa Pinho e Melo, PhD, MD</h3>
+          <h3>Nuno Taveira, PhD, MD</h3>
 
-          <p>CiênciaID: 9A1E-2767-EEE1</p>
+          <p>CiênciaID: 7111-3383-A926</p>
         </div>
 
-        {/* Américo */}
+        {/* InesB */}
         <div style={{ textAlign: "center" }}>
           <Image
-            src="/Americo.png"
-            alt="Américo Alves"
+            src="/InesB.png"
+            alt="Ines Bartolo"
             width={200}
             height={200}
             style={{ objectFit: "contain" }}
           />
 
-          <h3>Américo Alves, PhD, MD</h3>
+          <h3>Inês Bártolo, PhD, MD</h3>
 
-          <p>CiênciaID: A018-F2DF-D0C4</p>
+          <p>CiênciaID: 661E-F5CB-F85A</p>
         </div>
 
-        {/* MSc researcher */}
+        {/* Paloma */}
         <div style={{ textAlign: "center" }}>
           <Image
-            src="/Unknown.png"
-            alt="MSc researcher"
+            src="/Paloma.png"
+            alt="Paloma Goncalves"
             width={200}
             height={200}
             style={{ objectFit: "contain" }}
           />
 
-          <h3>MSc researcher</h3>
+          <h3>Paloma Gonçalves, PhD Student, MD</h3>
 
-          <p>To be recruited</p>
+          <p>CiênciaID: 6415-95F4-6D51</p>
         </div>
       </div>
     </main>
