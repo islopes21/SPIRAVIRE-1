@@ -34,13 +34,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main
-      style={{
-        maxWidth: "1500px",
-        margin: "0 auto",
-        padding: "60px 24px",
-      }}
-    >
+    <main>
       {/* Introdução com imagem à esquerda e texto à direita */}
       <div
         style={{
