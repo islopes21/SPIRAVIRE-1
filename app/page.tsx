@@ -148,13 +148,7 @@ export default function Home() {
                 marginBottom: "12px",
               }}
             >
-              <Link
-                href="/cqc"
-                style={{
-                  color: "inherit",
-                  textDecoration: "underline",
-                }}
-              >
+              <Link href="/cqc" className="institution-link">
                 Coimbra Chemistry Center (CQC)
               </Link>
             </h3>
@@ -162,7 +156,7 @@ export default function Home() {
             <Image
               src="/cqc.png"
               alt="CQC logo"
-              width={80}
+              width={90}
               height={70}
             />
 
@@ -213,13 +207,7 @@ export default function Home() {
                 marginBottom: "12px",
               }}
             >
-              <Link
-                href="/imed"
-                style={{
-                  color: "inherit",
-                  textDecoration: "underline",
-                }}
-              >
+              <Link href="/imed" className="institution-link">
                 iMed.ULisboa (Faculty of Pharmacy, ULisboa)
               </Link>
             </h3>
@@ -277,13 +265,7 @@ export default function Home() {
                 marginBottom: "12px",
               }}
             >
-              <Link
-                href="/CBR"
-                style={{
-                  color: "inherit",
-                  textDecoration: "underline",
-                }}
-              >
+              <Link href="/CBR" className="institution-link">
                 Católica Biomedical Research Center (CBR)
               </Link>
             </h3>
