@@ -254,8 +254,8 @@ export default function Home() {
             <Image
               src="/imed.png"
               alt="iMedULisboa logo"
-              width={100}
-              height={70}
+              width={110}
+              height={60}
             />
 
             <h4
@@ -312,8 +312,8 @@ export default function Home() {
             <Image
               src="/CBR-Logo.png"
               alt="CBR logo"
-              width={110}
-              height={70}
+              width={120}
+              height={60}
             />
 
             <h4
