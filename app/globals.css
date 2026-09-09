@@ -14,6 +14,7 @@ main {
 }
 
 /* Títulos */
+
 h1 {
   color: #309bae;
 }
@@ -64,7 +65,7 @@ header {
   transition: background-color 0.2s ease;
 }
 
-/* Pequeno efeito ao passar o rato */
+/* Efeito ao passar o rato */
 
 .hamburger-menu:hover .hamburger-icon {
   background-color: #f3f7fb;
@@ -101,7 +102,7 @@ header {
   z-index: 1000;
 }
 
-/* Aparece quando se passa o rato */
+/* Mostrar menu */
 
 .hamburger-menu:hover .hamburger-dropdown,
 .hamburger-menu:focus-within .hamburger-dropdown {
