@@ -83,7 +83,7 @@ export default function RootLayout({
             margin: "60px auto 0",
             padding: "40px 20px",
             color: "#309bae",
-            fontSize: "14px",
+            fontSize: "12px",
           }}
         >
           <div
