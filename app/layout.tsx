@@ -98,7 +98,7 @@ export default function RootLayout({
             <div>
               <h3>CONSORTIUM HUB</h3>
 
-              <Link href="/" className="footer-link">
+              <Link href="/project" className="footer-link">
                 Project Overview
               </Link>
 
@@ -132,9 +132,14 @@ export default function RootLayout({
             <div>
               <h3>PROJECT FINANCING</h3>
 
-              <p>
+              <a
+                href="https://sciproj.ptcris.pt/177835PRJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-link"
+              >
                 FCT - Fundação da Ciência e Tecnologia
-              </p>
+              </a>
             </div>
           </div>
 
