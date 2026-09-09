@@ -8,6 +8,9 @@ const images = [
   "/P3.png",
   "/cqclab.png",
   "/cbrlab.png",
+  "/P3.png",
+  "/cqclab.png",
+  "/cbrlab.png",
 ];
 
 const keywords = [
