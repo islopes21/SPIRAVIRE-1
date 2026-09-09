@@ -3,14 +3,17 @@ html, body {
   padding: 0;
   font-family: "Plus Jakarta Sans", "Inter", "Space Grotesk";
   background-color: #F8FAFC;
-  background: linear-gradient(
-  90deg,
-  #0F172A,
-  #0D9488,
-  #06B6D4
-);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  h1 {
+  color: #0F172A;
+}
+
+h2 {
+  color: #0D9488;
+}
+
+h3 {
+  color: #06B6D4;
+}
 }
 
 header {
