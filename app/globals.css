@@ -42,8 +42,8 @@ nav a {
 }
 
 nav a:hover {
-  border: 2px solid #0D9488;
-  border-radius: 10px;
+  border: 4px solid #0D9488;
+  border-radius: 13px;
 }
 
 /* Links das instituições */
