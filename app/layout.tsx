@@ -133,10 +133,11 @@ export default function RootLayout({
               <h3>PROJECT FINANCING</h3>
 
               <a
-                href="https://sciproj.ptcris.pt/177835PRJ"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-link"
+                <a
+  href="https://sciproj.ptcris.pt/177835PRJ"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="footer-link"
               >
                 FCT - Fundação da Ciência e Tecnologia
               </a>
