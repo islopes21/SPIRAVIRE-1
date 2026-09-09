@@ -6,6 +6,13 @@ body {
   background-color: #ECF1F6;
 }
 
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  box-sizing: border-box;
+}
+
 /* Títulos */
 h1 {
   color: #309bae;
@@ -35,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: 2px solid #0D9488;
+  border: 2px solid #0D9488;
   border-radius: 10px;
 }
 
