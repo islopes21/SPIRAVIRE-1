@@ -61,7 +61,7 @@ export default function Home() {
             style={{ objectFit: "contain" }}
           />
 
-          <h3>Inês Lopes, MD</h3>
+          <h3>Inês Lopes, PhD student, MD</h3>
 
           <p>CiênciaID: 191F-32DD-1901</p>
         </div>
