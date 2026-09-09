@@ -59,25 +59,31 @@ export default function RootLayout({
               </div>
             </div>
 
-            {/* Navegação */}
-<div className="hamburger-menu">
-  <div
-    className="hamburger-icon"
-    aria-label="Open navigation menu"
-  >
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
+            {/* Menu hamburger */}
+            <div className="hamburger-menu">
+              <div
+                className="hamburger-icon"
+                aria-label="Open navigation menu"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
 
-  <nav className="hamburger-dropdown">
-    <Link href="/">Home</Link>
-    <Link href="/project">Overview</Link>
-    <Link href="/objectives">Objectives</Link>
-    <Link href="/publications">Publications</Link>
-  </nav>
-</div>
-    
+              <nav className="hamburger-dropdown">
+                <Link href="/">Home</Link>
+                <Link href="/project">Overview</Link>
+                <Link href="/objectives">Objectives</Link>
+                <Link href="/publications">Publications</Link>
+              </nav>
+            </div>
+          </div>
+        </header>
+
+        <main>
+          {children}
+        </main>
+
         {/* Footer */}
         <footer
           style={{
@@ -134,10 +140,10 @@ export default function RootLayout({
               <h3>PROJECT FINANCING</h3>
 
               <a
-  href="https://sciproj.ptcris.pt/177835PRJ"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="footer-link"
+                href="https://sciproj.ptcris.pt/177835PRJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-link"
               >
                 FCT - Fundação da Ciência e Tecnologia
               </a>
