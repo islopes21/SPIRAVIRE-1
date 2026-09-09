@@ -98,8 +98,8 @@ export default function Home() {
       <div
         style={{
           height: "1px",
-          backgroundColor: "#666",
-          margin: "70px 0",
+          backgroundColor: "#e5e7eb",
+          margin: "60px 0",
         }}
       />
 
