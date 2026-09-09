@@ -127,6 +127,7 @@ export default function Home() {
         >
           {/* CQC */}
           <div
+            nav a:hover {
             style={{
               padding: "24px",
               border: "1px solid #e5e7eb",
@@ -153,7 +154,7 @@ export default function Home() {
                 style={{
                   color: "inherit",
                   textDecoration: "underline",
-                }}
+                }}}
               >
                 Coimbra Chemistry Center (CQC)
               </Link>
@@ -192,6 +193,7 @@ export default function Home() {
 
           {/* iMed */}
           <div
+            nav a:hover {
             style={{
               padding: "24px",
               border: "1px solid #e5e7eb",
@@ -218,7 +220,7 @@ export default function Home() {
                 style={{
                   color: "inherit",
                   textDecoration: "underline",
-                }}
+                }}}
               >
                 iMed.ULisboa (Faculty of Farmacy, ULisboa)
               </Link>
@@ -256,6 +258,7 @@ export default function Home() {
 
           {/* Católica */}
           <div
+            nav a:hover {
             style={{
               padding: "24px",
               border: "1px solid #e5e7eb",
@@ -282,7 +285,7 @@ export default function Home() {
                 style={{
                   color: "inherit",
                   textDecoration: "underline",
-                }}
+                }}}
               >
                 Católica Biomedical Research Center (CBR)
               </Link>
