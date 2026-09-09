@@ -133,7 +133,6 @@ export default function RootLayout({
               <h3>PROJECT FINANCING</h3>
 
               <a
-                <a
   href="https://sciproj.ptcris.pt/177835PRJ"
   target="_blank"
   rel="noopener noreferrer"
