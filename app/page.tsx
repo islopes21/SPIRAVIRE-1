@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <main
       style={{
-        maxWidth: "1000px",
+        maxWidth: "1500px",
         margin: "0 auto",
         padding: "60px 24px",
       }}
@@ -34,7 +34,7 @@ export default function Home() {
         style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
-          gap: "50px",
+          gap: "30px",
           alignItems: "center",
         }}
       >
@@ -98,8 +98,8 @@ export default function Home() {
       <div
         style={{
           height: "1px",
-          backgroundColor: "#e5e7eb",
-          margin: "60px 0",
+          backgroundColor: "#666",
+          margin: "70px 0",
         }}
       />
 
