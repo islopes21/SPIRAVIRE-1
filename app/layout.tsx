@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import "./globals.css";
 import { ReactNode } from "react";
 
@@ -18,9 +19,9 @@ export default function RootLayout({
         <header>
           <div
             style={{
-              maxWidth: "1000px",
+              maxWidth: "1600px",
               margin: "0 auto",
-              padding: "20px",
+              padding: "20px 40px",
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
@@ -79,9 +80,9 @@ export default function RootLayout({
         {/* Footer */}
         <footer
           style={{
-            maxWidth: "1000px",
+            maxWidth: "1600px",
             margin: "60px auto 0",
-            padding: "40px 20px",
+            padding: "40px",
             color: "#666",
             fontSize: "12px",
           }}
@@ -96,26 +97,48 @@ export default function RootLayout({
             {/* Consortium Hub */}
             <div>
               <h3>CONSORTIUM HUB</h3>
-              <p>Project Overview</p>
-              <p>Research Objectives</p>
-              <p>Publications & Related</p>
+
+              <Link href="/" className="footer-link">
+                Project Overview
+              </Link>
+
+              <Link href="/objectives" className="footer-link">
+                Research Objectives
+              </Link>
+
+              <Link href="/publications" className="footer-link">
+                Publications & Related
+              </Link>
             </div>
 
             {/* Partner Institutions */}
             <div>
               <h3>PARTNER INSTITUTIONS</h3>
-              <p>CQC - Coimbra University</p>
-              <p>iMed.ULisboa - Faculty of Pharmacy, ULisboa</p>
-              <p>CBR - Portuguese Catholic University</p>
+
+              <Link href="/cqc" className="footer-link">
+                CQC - Coimbra University
+              </Link>
+
+              <Link href="/imed" className="footer-link">
+                iMed.ULisboa - Faculty of Pharmacy, ULisboa
+              </Link>
+
+              <Link href="/CBR" className="footer-link">
+                CBR - Portuguese Catholic University
+              </Link>
             </div>
 
             {/* Project Financing */}
             <div>
               <h3>PROJECT FINANCING</h3>
-              <p>FCT - Fundação da Ciência e Tecnologia</p>
+
+              <p>
+                FCT - Fundação da Ciência e Tecnologia
+              </p>
             </div>
           </div>
 
+          {/* Copyright */}
           <div
             style={{
               textAlign: "center",
