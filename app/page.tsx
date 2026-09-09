@@ -1,7 +1,26 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+
+const images = [
+  "/P3.png",
+  "/cqclab.png",
+  "/cbrlab.png",
+];
 
 export default function Home() {
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((current) => (current + 1) % images.length);
+    }, 10000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <main
       style={{
@@ -10,37 +29,70 @@ export default function Home() {
         padding: "60px 24px",
       }}
     >
-      {/* Título principal */}
-      <h1
+      {/* Introdução com imagem à esquerda e texto à direita */}
+      <div
         style={{
-          fontSize: "36px",
-          fontWeight: "bold",
-          textAlign: "center",
-          marginBottom: "24px",
+          display: "grid",
+          gridTemplateColumns: "1fr 1fr",
+          gap: "50px",
+          alignItems: "center",
         }}
       >
-        SPIRAVIRE Consortium
-      </h1>
+        {/* Slideshow */}
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            height: "350px",
+            borderRadius: "12px",
+            overflow: "hidden",
+          }}
+        >
+          {images.map((src, index) => (
+            <Image
+              key={src}
+              src={src}
+              alt="SPIRAVIRE research"
+              fill
+              style={{
+                objectFit: "cover",
+                opacity: index === currentImage ? 1 : 0,
+                transition: "opacity 1.5s ease-in-out",
+              }}
+            />
+          ))}
+        </div>
 
-      {/* Texto introdutório */}
-      <p
-        style={{
-          textAlign: "center",
-          lineHeight: "1.7",
-          maxWidth: "850px",
-          margin: "0 auto",
-        }}
-      >
-        The SPIRAVIRE consortium aims to develop innovative,
-        broad-spectrum, host-directed antivirals against respiratory
-        diseases caused by RNA viruses based on spiro-β-lactam compounds.
-        This effort was prompted by the landmark discovery that some
-        spiro-β-lactams have remarkable activity against diverse viruses,
-        including HIV-1, HIV-2, influenza A and B viruses and SARS-CoV-2.
-        The urgency for such broad-spectrum antivirals is highlighted by
-        the need to improve global preparedness for potential epidemics
-        caused by RNA respiratory viruses.
-      </p>
+        {/* Texto introdutório */}
+        <div>
+          <h1
+            style={{
+              fontSize: "36px",
+              fontWeight: "bold",
+              marginBottom: "24px",
+            }}
+          >
+            SPIRAVIRE Consortium
+          </h1>
+
+          <p
+            style={{
+              lineHeight: "1.7",
+              margin: 0,
+            }}
+          >
+            The SPIRAVIRE consortium aims to develop innovative,
+            broad-spectrum, host-directed antivirals against respiratory
+            diseases caused by RNA viruses based on spiro-β-lactam compounds.
+            This effort was prompted by the landmark discovery that some
+            spiro-β-lactams have remarkable activity against diverse viruses,
+            including HIV-1, HIV-2, influenza A and B viruses and SARS-CoV-2.
+            The urgency for such broad-spectrum antivirals is highlighted by
+            the need to improve global preparedness for potential epidemics
+            caused by RNA respiratory viruses.
+          </p>
+        </div>
+      </div>
 
       {/* Separador */}
       <div
@@ -95,16 +147,16 @@ export default function Home() {
                 fontSize: "18px",
                 marginBottom: "12px",
               }}
+            >
+              <Link
+                href="/cqc"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
               >
-            <Link
-              href="/cqc"
-              style={{
-                color: "inherit",
-                textDecoration: "none",
-              }}
-              >
-              Coimbra Chemistry Center (CQC)
-            </Link>
+                Coimbra Chemistry Center (CQC)
+              </Link>
             </h3>
 
             <Image
@@ -160,16 +212,16 @@ export default function Home() {
                 fontSize: "18px",
                 marginBottom: "12px",
               }}
+            >
+              <Link
+                href="/imed"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
               >
-            <Link
-              href="/imed"
-              style={{
-                color: "inherit",
-                textDecoration: "none",
-              }}
-              >
-              iMed.ULisboa (Faculty of Farmacy, ULisboa)
-            </Link>
+                iMed.ULisboa (Faculty of Farmacy, ULisboa)
+              </Link>
             </h3>
 
             <Image
@@ -224,16 +276,16 @@ export default function Home() {
                 fontSize: "18px",
                 marginBottom: "12px",
               }}
+            >
+              <Link
+                href="/CBR"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
               >
-            <Link
-              href="/CBR"
-              style={{
-                color: "inherit",
-                textDecoration: "none",
-              }}
-              >
-              Católica Biomedical Research Center (CBR)
-            </Link>
+                Católica Biomedical Research Center (CBR)
+              </Link>
             </h3>
 
             <Image
