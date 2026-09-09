@@ -7,6 +7,15 @@ export default function Publications() {
 
       <p>Please read the Related bibliography to learn more!</p>
 
+      {/* Separador */}
+      <div
+        style={{
+          height: "1px",
+          backgroundColor: "#e5e7eb",
+          margin: "60px 0",
+        }}
+      />
+
       <h1 className="text-3xl font-semibold mb-6">
         Related Bibliography
       </h1>
