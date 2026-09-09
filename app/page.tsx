@@ -131,7 +131,7 @@ export default function Home() {
               padding: "24px",
               border: "1px solid #e5e7eb",
               borderRadius: "8px",
-              backgroundColor: "#f9fafb",
+              backgroundColor: "#f3f7fb",
               textAlign: "center",
               minHeight: "300px",
               display: "flex",
@@ -152,7 +152,7 @@ export default function Home() {
                 href="/cqc"
                 style={{
                   color: "inherit",
-                  textDecoration: "none",
+                  textDecoration: "underline",
                 }}
               >
                 Coimbra Chemistry Center (CQC)
@@ -196,7 +196,7 @@ export default function Home() {
               padding: "24px",
               border: "1px solid #e5e7eb",
               borderRadius: "8px",
-              backgroundColor: "#f9fafb",
+              backgroundColor: "#f3f7fb",
               textAlign: "center",
               minHeight: "300px",
               display: "flex",
@@ -217,7 +217,7 @@ export default function Home() {
                 href="/imed"
                 style={{
                   color: "inherit",
-                  textDecoration: "none",
+                  textDecoration: "underline",
                 }}
               >
                 iMed.ULisboa (Faculty of Farmacy, ULisboa)
@@ -260,7 +260,7 @@ export default function Home() {
               padding: "24px",
               border: "1px solid #e5e7eb",
               borderRadius: "8px",
-              backgroundColor: "#f9fafb",
+              backgroundColor: "#f3f7fb",
               textAlign: "center",
               minHeight: "300px",
               display: "flex",
@@ -281,7 +281,7 @@ export default function Home() {
                 href="/CBR"
                 style={{
                   color: "inherit",
-                  textDecoration: "none",
+                  textDecoration: "underline",
                 }}
               >
                 Católica Biomedical Research Center (CBR)
