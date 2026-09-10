@@ -8,8 +8,8 @@ const objectives = [
     number: "1",
     title: "Project management and dissemination of results",
     text: "The project will ensure comprehensive administrative, technical, financial, communication, and dissemination oversight. This includes coordinating meetings and records, managing the consortium website, monitoring technical progress and expenditure, identifying risks and implementing corrective actions, developing and monitoring dissemination and exploitation strategies, and ensuring effective communication through conference calls, meeting minutes, and regular financial and scientific reporting.",
-    team: "SPIRAVIRE Consortium",
-    teamLink: "/",
+    team: "CiiEM - Egas Moniz School of Health & Science",
+    teamLink: "/egas",
     progress: 0,
   },
   {
