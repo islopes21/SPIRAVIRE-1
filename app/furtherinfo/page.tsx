@@ -15,8 +15,9 @@
           marginBottom: "30px",
         }}
       >
-        Group of Organic Chemistry
+        Patent/Legal Registration
       </h1>
+     
 </main>
   );
 }
