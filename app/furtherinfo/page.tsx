@@ -1,17 +1,18 @@
 export default function Information() {
   const updates = [
-     {
-      date: "20 August 2026",
+    {
+      date: "1 October 2026",
       category: "Fellowship Call - Candidate Selection",
       title: "Selection of the Applicant - MSc student for iMed.ULisboa",
       text: "A fellowship call was launched within the SPIRAVIRE project to recruit a researcher to support the research activities to be carried out at iMed.ULisboa. Following the selection process, Paloma Gonçalves, PhD student, was selected to join the project and contribute to the implementation of its research objectives, particularly in the evaluation and characterisation of the antiviral activity of spiro-β-lactam compounds against respiratory viruses.",
-        },
+    },
     {
       date: "20 August 2026",
       category: "Fellowship Call",
       title: "Call for Applications - MSc student for iMed.ULisboa",
       text: "A fellowship call was launched within the SPIRAVIRE project to recruit a researcher to support the activities to be carried out at iMed.ULisboa. The fellowship will contribute to the implementation of the project’s research objectives, particularly in the evaluation and characterisation of the antiviral activity of spiro-β-lactam compounds against respiratory viruses.",
-        },
+      link: "https://www.egasmoniz.com.pt/?utm_term=&utm_campaign=%5BTOF%5D+Enfermagem_revista&utm_source=adwords&utm_medium=ppc&hsa_acc=6100845426&hsa_cam=20792127356&hsa_grp=158852195514&hsa_ad=681584941911&hsa_src=g&hsa_tgt=kwl-3500001&hsa_kw=&hsa_mt=a&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20792127356&gbraid=0AAAAADoZ1aAWVe_y6Rd9E6Tk8BHB0OFPl&gclid=CjwKCAjwqonVBhA4EiwA9wYJ3QBkiz6RsSF4Iqbn_TS7CsHXeKsWFfr-zoo0FE9xE-MpdwqNyVzG9BoCfl4QAvD_BwE",
+    },
     {
       date: "20 April 2026",
       category: "Training & Capacity Building",
@@ -154,6 +155,25 @@ export default function Information() {
               >
                 {update.text}
               </p>
+
+              {/* External link */}
+              {update.link && (
+                <a
+                  href={update.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "inline-block",
+                    marginTop: "16px",
+                    color: "#2563eb",
+                    textDecoration: "none",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                  }}
+                >
+                  Read more →
+                </a>
+              )}
             </div>
           </div>
         ))}
