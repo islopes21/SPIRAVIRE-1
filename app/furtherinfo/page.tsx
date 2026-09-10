@@ -1,28 +1,34 @@
 export default function Information() {
   const updates = [
+     {
+      date: "20 August 2026",
+      category: "Fellowship Call - Candidate Selection",
+      title: "Selection of the Applicant - MSc student for iMed.ULisboa",
+      text: "A fellowship call was launched within the SPIRAVIRE project to recruit a researcher to support the research activities to be carried out at iMed.ULisboa. Following the selection process, Paloma Gonçalves was selected to join the project and contribute to the implementation of its research objectives, particularly in the evaluation and characterisation of the antiviral activity of spiro-β-lactam compounds against respiratory viruses.",
+        },
     {
-      date: "10 September 2026",
-      category: "Scientific Publication",
-      title: "New findings on the antiviral activity of spiro-β-lactams",
-      text: "SPIRAVIRE researchers continue to advance the understanding of spiro-β-lactams as promising broad-spectrum antiviral compounds against respiratory RNA viruses.",
+      date: "20 August 2026",
+      category: "Fellowship Call",
+      title: "Call for Applications - MSc student for iMed.ULisboa",
+      text: "A fellowship call was launched within the SPIRAVIRE project to recruit a researcher to support the activities to be carried out at iMed.ULisboa. The fellowship will contribute to the implementation of the project’s research objectives, particularly in the evaluation and characterisation of the antiviral activity of spiro-β-lactam compounds against respiratory viruses.",
+        },
+    {
+      date: "20 April 2026",
+      category: "Training & Capacity Building",
+      title: "Course on Laboratory Animal Science in Rodents (for Functions A+C+D)",
+      text: "As part of the SPIRAVIRE project, Inês Lopes, PhD student, attended the Course on Laboratory Animal Science in Rodents (for Functions A+C+D). This training provided the necessary knowledge and competencies to support the responsible and appropriate use of laboratory animals and enabled her to fulfil the training requirements associated with one of the project’s objectives involving in vivo studies.",
+    },
+    {
+      date: "1 January 2026",
+      category: "Team Meeting",
+      title: "Kick-off Meeting",
+      text: "The SPIRAVIRE project officially commenced with a kick-off meeting bringing together the consortium partners to establish a common framework for the project’s implementation. The meeting focused on aligning the project timelines, defining key milestones and deliverables, and coordinating the activities and responsibilities of each partner. This initial discussion provided an important foundation for effective time management, collaboration and monitoring of progress throughout the project.",
     },
     {
       date: "26 November 2025",
       category: "Intellectual Property",
       title: "European patent EP 3625238 B1 granted",
       text: "The European patent covering novel spiro-lactam compounds, processes and therapeutic uses was granted, strengthening the intellectual property portfolio supporting the spiro-β-lactam platform.",
-    },
-    {
-      date: "22 May 2025",
-      category: "Intellectual Property",
-      title: "New international patent application published",
-      text: "The international patent application WO 2025/104683 A1, covering spiro-penicillanate compounds for the treatment of respiratory infections, was published.",
-    },
-    {
-      date: "2025",
-      category: "Conference Presentation",
-      title: "SPIRAVIRE research presented at ESCMID Global 2025",
-      text: "New findings on the broad-spectrum antiviral activity of spiro-β-lactams against SARS-CoV-2, influenza and HIV were presented at ESCMID Global 2025 in Vienna, Austria.",
     },
   ];
 
