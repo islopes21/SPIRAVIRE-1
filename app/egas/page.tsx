@@ -39,50 +39,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Egas Moniz */}
-
-      <section
-        style={{
-          marginTop: "70px",
-          padding: "35px",
-          backgroundColor: "#f3f7fb",
-          border: "1px solid #dbe5ee",
-          borderRadius: "16px",
-          textAlign: "center",
-        }}
-      >
-        <h2
-          style={{
-            marginBottom: "25px",
-          }}
-        >
-          Egas Moniz
-        </h2>
-
-        <Image
-          src="/egas2.png"
-          alt="Egas Moniz logo"
-          width={200}
-          height={100}
-          style={{
-            objectFit: "contain",
-          }}
-        />
-
-        <p
-          style={{
-            maxWidth: "750px",
-            margin: "25px auto 0 auto",
-            lineHeight: "1.7",
-            color: "#475569",
-          }}
-        >
-          Responsible for the overall management and coordination of the
-          SPIRAVIRE project, including the coordination of consortium
-          activities, timelines and project implementation.
-        </p>
-      </section>
-
       {/* Members */}
 
       <section
