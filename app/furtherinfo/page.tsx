@@ -4,7 +4,7 @@ export default function Information() {
       date: "20 August 2026",
       category: "Fellowship Call - Candidate Selection",
       title: "Selection of the Applicant - MSc student for iMed.ULisboa",
-      text: "A fellowship call was launched within the SPIRAVIRE project to recruit a researcher to support the research activities to be carried out at iMed.ULisboa. Following the selection process, Paloma Gonçalves was selected to join the project and contribute to the implementation of its research objectives, particularly in the evaluation and characterisation of the antiviral activity of spiro-β-lactam compounds against respiratory viruses.",
+      text: "A fellowship call was launched within the SPIRAVIRE project to recruit a researcher to support the research activities to be carried out at iMed.ULisboa. Following the selection process, Paloma Gonçalves, PhD student, was selected to join the project and contribute to the implementation of its research objectives, particularly in the evaluation and characterisation of the antiviral activity of spiro-β-lactam compounds against respiratory viruses.",
         },
     {
       date: "20 August 2026",
