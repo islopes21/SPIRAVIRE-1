@@ -57,7 +57,15 @@ export default function InnovationPage() {
               marginBottom: "12px",
               color: "#0D9488",
             }}
-          >
+            <a
+              href="https://patents.google.com/patent/EP3625238B1/en"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "inherit",
+                textDecoration: "none",
+              }}
+            >
             Foundational Patent — EP 3625238
           </h2>
 
@@ -68,15 +76,6 @@ export default function InnovationPage() {
               color: "#0F172A",
             }}
           >
-            <a
-              href="https://patents.google.com/patent/EP3625238B1/en"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color: "inherit",
-                textDecoration: "none",
-              }}
-            >
               Novel spiro-lactam compounds, process and uses thereof
             </a>
           </h3>
