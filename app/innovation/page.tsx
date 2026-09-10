@@ -1,3 +1,4 @@
+```tsx
 export default function InnovationPage() {
   return (
     <div>
@@ -55,18 +56,19 @@ export default function InnovationPage() {
             style={{
               fontSize: "24px",
               marginBottom: "12px",
-              color: "#0D9488",
             }}
+          >
             <a
               href="https://patents.google.com/patent/EP3625238B1/en"
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                color: "inherit",
+                color: "#0D9488",
                 textDecoration: "none",
               }}
             >
-            Foundational Patent — EP 3625238
+              Foundational Patent — EP 3625238
+            </a>
           </h2>
 
           <h3
@@ -76,8 +78,7 @@ export default function InnovationPage() {
               color: "#0F172A",
             }}
           >
-              Novel spiro-lactam compounds, process and uses thereof
-            </a>
+            Novel spiro-lactam compounds, process and uses thereof
           </h3>
 
           <p
@@ -122,9 +123,11 @@ export default function InnovationPage() {
             <div>
               <strong>Patent:</strong> EP 3625238 B1
             </div>
+
             <div>
               <strong>Publication:</strong> 26 November 2025
             </div>
+
             <div>
               <strong>Status:</strong> European patent granted
             </div>
@@ -146,18 +149,19 @@ export default function InnovationPage() {
             style={{
               fontSize: "24px",
               marginBottom: "12px",
-              color: "#0D9488",
             }}
+          >
             <a
               href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2025104683"
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                color: "inherit",
+                color: "#0D9488",
                 textDecoration: "none",
               }}
-          >
-            Respiratory Antiviral Patent — WO 2025/104683
+            >
+              Respiratory Antiviral Patent — WO 2025/104683
+            </a>
           </h2>
 
           <h3
@@ -167,11 +171,8 @@ export default function InnovationPage() {
               color: "#0F172A",
             }}
           >
-            
-            >
-              Spiro-penicillanate compounds for the treatment of respiratory
-              infections
-            </a>
+            Spiro-penicillanate compounds for the treatment of respiratory
+            infections
           </h3>
 
           <p
@@ -198,67 +199,4 @@ export default function InnovationPage() {
             }}
           >
             With a priority date in 2023 and international publication in
-            2025, this patent is particularly relevant to the scientific and
-            technological objectives of SPIRAVIRE, which seeks to advance
-            spiro-β-lactams as broad-spectrum antiviral candidates against
-            respiratory RNA viruses.
-          </p>
-
-          <div
-            style={{
-              marginTop: "20px",
-              paddingTop: "18px",
-              borderTop: "1px solid #dbe5ee",
-              fontSize: "14px",
-              lineHeight: "1.8",
-              color: "#475569",
-            }}
-          >
-            <div>
-              <strong>Patent application:</strong> WO 2025/104683 A1
-            </div>
-            <div>
-              <strong>Publication:</strong> 22 May 2025
-            </div>
-            <div>
-              <strong>Status:</strong> International patent application
-              published
-            </div>
-          </div>
-        </article>
-
-        {/* Final section */}
-
-        <section>
-          <h2
-            style={{
-              fontSize: "25px",
-              marginBottom: "15px",
-              color: "#0D9488",
-            }}
-          >
-            From Discovery to Therapeutic Innovation
-          </h2>
-
-          <p
-            style={{
-              fontSize: "15px",
-              lineHeight: "1.75",
-              color: "#475569",
-              margin: 0,
-            }}
-          >
-            Together, these intellectual property assets illustrate the
-            progression of the spiro-β-lactam research programme from the
-            discovery and development of novel chemical scaffolds to their
-            application in the treatment of respiratory viral infections.
-            SPIRAVIRE builds on this foundation by further investigating
-            antiviral activity, mechanisms of action and therapeutic
-            potential, supporting the future translation of these compounds
-            into innovative broad-spectrum antiviral therapies.
-          </p>
-        </section>
-      </section>
-    </div>
-  );
-}
+            2025, this patent is particularly relevant to the scientific
