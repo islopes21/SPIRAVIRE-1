@@ -148,6 +148,61 @@ export default function Home() {
         >
           Get to know us!
         </h2>
+        {/* Egas Moniz */}
+        <div
+            style={{
+              padding: "24px",
+              border: "1px solid #e5e7eb",
+              borderRadius: "8px",
+              backgroundColor: "#f3f7fb",
+              textAlign: "center",
+              minHeight: "300px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              boxSizing: "border-box",
+            }}
+          >
+            <h3
+              style={{
+                fontWeight: "bold",
+                fontSize: "18px",
+                marginBottom: "12px",
+              }}
+            >
+              <Link href="/cqc" className="institution-link">
+                Egas Moniz School of Health & Science (CiiEM)
+              </Link>
+            </h3>
+
+            <Image
+              src="/cqc.png"
+              alt="CQC logo"
+              width={100}
+              height={70}
+            />
+
+            <h4
+              style={{
+                fontWeight: "bold",
+                fontSize: "16px",
+                marginBottom: "12px",
+              }}
+            >
+              Microbiology and Infectious Diseases
+    
+            </h4>
+
+            <p
+              style={{
+                fontSize: "14px",
+                lineHeight: "1.6",
+              }}
+            >
+             Responsible for the overall coordination and management of the SPIRAVIRE project, ensuring effective collaboration among consortium partners and the implementation of the project’s scientific and administrative activities.
+            </p>
+          </div>
 
         {/* Três instituições */}
         <div
