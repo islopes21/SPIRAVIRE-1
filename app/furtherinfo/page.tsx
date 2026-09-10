@@ -45,7 +45,6 @@ export default function Information() {
           textAlign: "center",
           fontSize: "36px",
           marginBottom: "20px",
-          color: "#1e293b",
         }}
       >
         Project Updates
