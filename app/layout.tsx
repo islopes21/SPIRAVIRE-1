@@ -75,6 +75,7 @@ export default function RootLayout({
                 <Link href="/project">Overview</Link>
                 <Link href="/objectives">Objectives</Link>
                 <Link href="/publications">Publications</Link>
+                <Link href="/furtherinfo">Further Information</Link>
               </nav>
             </div>
           </div>
