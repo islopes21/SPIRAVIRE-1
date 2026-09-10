@@ -34,14 +34,16 @@ export default function RootLayout({
                 alignItems: "center",
                 gap: "15px",
               }}
-            <Link href="/">
-  <Image
-    src="/SPIRAVIRE_log.png"
-    alt="SPIRAVIRE logo"
-    width={90}
-    height={70}
-  />
-</Link>
+            >
+              <Link href="/">
+                <Image
+                  src="/SPIRAVIRE_log.png"
+                  alt="SPIRAVIRE logo"
+                  width={90}
+                  height={70}
+                />
+              </Link>
+
               <div>
                 <h2 style={{ margin: 0 }}>
                   SPIRAVIRE
@@ -75,8 +77,12 @@ export default function RootLayout({
                 <Link href="/project">Overview</Link>
                 <Link href="/objectives">Objectives</Link>
                 <Link href="/publications">Publications</Link>
-                <Link href="/innovation">Innovation & Intellectual Property</Link>
-                <Link href="/furtherinfo">Further Information</Link>
+                <Link href="/innovation">
+                  Innovation & Intellectual Property
+                </Link>
+                <Link href="/furtherinfo">
+                  Further Information
+                </Link>
               </nav>
             </div>
           </div>
@@ -135,7 +141,7 @@ export default function RootLayout({
               <Link href="/egas" className="footer-link">
                 CiiEM - Egas Moniz School of Health & Science
               </Link>
-              
+
               <Link href="/cqc" className="footer-link">
                 CQC - Coimbra University
               </Link>
