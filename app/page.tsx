@@ -162,6 +162,7 @@ export default function Home() {
               justifyContent: "center",
               alignItems: "center",
               boxSizing: "border-box",
+              gap: "24px",
             }}
           >
             <h3
@@ -171,7 +172,7 @@ export default function Home() {
                 marginBottom: "12px",
               }}
             >
-              <Link href="/cqc" className="institution-link">
+              <Link href="/egas" className="institution-link">
                 Egas Moniz School of Health & Science (CiiEM)
               </Link>
             </h3>
