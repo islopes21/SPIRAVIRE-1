@@ -177,8 +177,8 @@ export default function Home() {
             </h3>
 
             <Image
-              src="/cqc.png"
-              alt="CQC logo"
+              src="/egas2.png"
+              alt="Egas Moniz logo"
               width={100}
               height={70}
             />
