@@ -17,3 +17,6 @@
       >
         Group of Organic Chemistry
       </h1>
+</main>
+  );
+}
