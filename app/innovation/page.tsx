@@ -148,6 +148,14 @@ export default function InnovationPage() {
               marginBottom: "12px",
               color: "#0D9488",
             }}
+            <a
+              href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2025104683"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "inherit",
+                textDecoration: "none",
+              }}
           >
             Respiratory Antiviral Patent — WO 2025/104683
           </h2>
@@ -159,14 +167,7 @@ export default function InnovationPage() {
               color: "#0F172A",
             }}
           >
-            <a
-              href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2025104683"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color: "inherit",
-                textDecoration: "none",
-              }}
+            
             >
               Spiro-penicillanate compounds for the treatment of respiratory
               infections
