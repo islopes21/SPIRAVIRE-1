@@ -132,6 +132,10 @@ export default function RootLayout({
             <div>
               <h3>PARTNER INSTITUTIONS</h3>
 
+              <Link href="/egas" className="footer-link">
+                CiiEM - Egas Moniz School of Health & Science
+              </Link>
+              
               <Link href="/cqc" className="footer-link">
                 CQC - Coimbra University
               </Link>
