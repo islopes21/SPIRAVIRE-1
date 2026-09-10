@@ -1,7 +1,7 @@
 export default function Publications() {
   const publications = [
     {
-      type: "Poster at a Congress",
+      type: "Conference Presentation/Abstract",
       year: "2025",
       title:
         "Broad-spectrum antiviral activity of spiro-beta-lactams: targeting SARS-CoV-2, influenza, and HIV through ferroptosis induction",
