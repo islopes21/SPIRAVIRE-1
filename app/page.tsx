@@ -148,67 +148,75 @@ export default function Home() {
         >
           Get to know us!
         </h2>
-        
-{/* Egas Moniz */}
 
-<div
-  style={{
-    maxWidth: "500px",
-    margin: "0 auto 70px auto",
-    padding: "24px",
-    border: "1px solid #e5e7eb",
-    borderRadius: "8px",
-    backgroundColor: "#f3f7fb",
-    textAlign: "center",
-    minHeight: "300px",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    boxSizing: "border-box",
-  }}
->
-  <h3
-    style={{
-      fontWeight: "bold",
-      fontSize: "18px",
-      marginBottom: "12px",
-    }}
-  >
-    <Link href="/egas" className="institution-link">
-      Egas Moniz School of Health & Science (CiiEM)
-    </Link>
-  </h3>
+        {/* Egas Moniz */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gap: "24px",
+            marginBottom: "70px",
+          }}
+        >
+          <div
+            style={{
+              gridColumn: "2",
+              padding: "24px",
+              border: "1px solid #e5e7eb",
+              borderRadius: "8px",
+              backgroundColor: "#f3f7fb",
+              textAlign: "center",
+              minHeight: "300px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              boxSizing: "border-box",
+            }}
+          >
+            <h3
+              style={{
+                fontWeight: "bold",
+                fontSize: "18px",
+                marginBottom: "12px",
+              }}
+            >
+              <Link href="/egas" className="institution-link">
+                Egas Moniz School of Health & Science (CiiEM)
+              </Link>
+            </h3>
 
-  <Image
-    src="/egas2.png"
-    alt="Egas Moniz logo"
-    width={100}
-    height={70}
-  />
+            <Image
+              src="/egas2.png"
+              alt="Egas Moniz logo"
+              width={100}
+              height={70}
+            />
 
-  <h4
-    style={{
-      fontWeight: "bold",
-      fontSize: "16px",
-      marginBottom: "12px",
-    }}
-  >
-    Microbiology and Infectious Diseases
-  </h4>
+            <h4
+              style={{
+                fontWeight: "bold",
+                fontSize: "16px",
+                marginBottom: "12px",
+              }}
+            >
+              Microbiology and Infectious Diseases
+            </h4>
 
-  <p
-    style={{
-      fontSize: "14px",
-      lineHeight: "1.6",
-    }}
-  >
-    Responsible for the overall coordination and management of the SPIRAVIRE
-    project, ensuring effective collaboration among consortium partners and
-    the implementation of the project’s scientific and administrative
-    activities.
-  </p>
-</div>
+            <p
+              style={{
+                fontSize: "14px",
+                lineHeight: "1.6",
+                margin: 0,
+              }}
+            >
+              Responsible for the overall coordination and management of the
+              SPIRAVIRE project, ensuring effective collaboration among
+              consortium partners and the implementation of the project’s
+              scientific and administrative activities.
+            </p>
+          </div>
+        </div>
 
         {/* Três instituições */}
         <div
@@ -270,11 +278,12 @@ export default function Home() {
               style={{
                 fontSize: "14px",
                 lineHeight: "1.6",
+                margin: 0,
               }}
             >
               Responsible for the production and optimization of
-              spiro-β-lactams for better antiviral efficacy and
-              medicinal chemistry properties.
+              spiro-β-lactams for better antiviral efficacy and medicinal
+              chemistry properties.
             </p>
           </div>
 
@@ -329,6 +338,7 @@ export default function Home() {
               style={{
                 fontSize: "14px",
                 lineHeight: "1.6",
+                margin: 0,
               }}
             >
               Evaluating antiviral activity across human and zoonotic
@@ -387,6 +397,7 @@ export default function Home() {
               style={{
                 fontSize: "14px",
                 lineHeight: "1.6",
+                margin: 0,
               }}
             >
               Strengthening defenses against emerging viral respiratory
@@ -395,6 +406,45 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Responsividade */}
+      <style jsx>{`
+        @media (max-width: 900px) {
+          main {
+            padding: 0 20px;
+          }
+
+          main > div:first-child {
+            grid-template-columns: 1fr !important;
+          }
+
+          section > div:first-of-type {
+            grid-template-columns: 1fr !important;
+          }
+
+          section > div:first-of-type > div {
+            grid-column: 1 !important;
+          }
+
+          section > div:last-of-type {
+            grid-template-columns: 1fr !important;
+          }
+        }
+
+        @media (max-width: 600px) {
+          h1 {
+            font-size: 30px !important;
+          }
+
+          h2 {
+            font-size: 26px !important;
+          }
+
+          main > div:first-child > div:first-child {
+            height: 250px !important;
+          }
+        }
+      `}</style>
     </main>
   );
 }
