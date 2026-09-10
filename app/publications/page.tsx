@@ -1,6 +1,45 @@
 export default function Publications() {
   const publications = [
     {
+      type: "Poster at a Congress",
+      year: "2025",
+      title:
+        "Broad-spectrum antiviral activity of spiro-beta-lactams: targeting SARS-CoV-2, influenza, and HIV through ferroptosis induction",
+      citation:
+        "Gonçalves P, Rocha C, Correia V, Santos LA, Rebelo-De-Andrade H, Bártolo I, Lopes I, Alves NG, Alves AJS, Alves De Matos AP, Pöhlmann S, Pinho Melo TMVD, Taveira N. Broad-spectrum antiviral activity of spiro-beta-lactams: targeting SARS-CoV-2, influenza, and HIV through ferroptosis induction [poster]. ESCMID Global 2025; 2025; Vienna, Austria. Poster P0189/06221.",
+      doi: "10.1016/j.cmicom.2025.105086",
+      abstract: "Background"
+"Despite advances in therapeutics and prophylaxis, SARS-CoV-2 and influenza viruses continue to pose a global threat, leading to millions of infections and deaths. The rapid mutation of these viruses and emergence of new variants demand innovative treatment and prevention solutions. Previously, we identified spiro-β-lactams with potent activity against HIV and Plasmodium spp. In this study, we evaluate a new set of spiro-β-lactams against HIV, SARS-CoV-2 and influenza, seeking to understand their efficacy and underlying mechanisms."
+"Methods"
+"The five novel spiro-β-lactam compounds were tested against a range of seasonal influenza viruses (AH1N1pdm09, AH3N2, oseltamivir-resistant
+AH1N1pdm09, and B/Yamagata), SARS-CoV-2 Omicron BA.1, and HIV. Influenza activity was measured using neuraminidase-based assays in
+MDCK-SIAT1 and Calu-3 cells, while SARS-CoV-2 efficacy was determined via plaque assays in Calu-3 cells. HIV activity was assessed with a
+luciferase reporter assay in TZM-bl cells. To explore the mechanism of action of these compounds, time-of-addition studies, electron microscopy
+(EM), and single-cell mRNA sequencing were conducted."
+Results
+All tested compounds were active against the viruses, with IC50 values ranging from 0.23 to 2.3 µM for influenza, 0.05 to 0.7 µM for SARS-CoV-2,
+and 0.01 to 0.09 µM for HIV. Compounds affect HIV at different stages of its life cycle. The lead compound BSS-730A caused an increase in cell
+phagocytic/autophagic vacuoles. These morphological changes were reversible eight hours after the compound were removed. Single-cell transcriptome analysis in human peripheral blood mononuclear cells treated with BSS-730A showed an up-regulation of FTL (ferritin light chain) and
+FTH1 (ferritin heavy chain 1) gene expression, suggesting an antiviral mechanism of action involving iron regulation and oxidative stress, likely
+linked to ferroptosis.  
+Conclusions
+This study identifies spiro-β-lactams as promising, potent antivirals against SARS-CoV-2, influenza, and HIV. Their host-centered mechanism,
+potentially involving ferroptosis, could offer a novel strategy to combat viral mutations. Future research will focus on in vivo validation and the
+potential of integrating spiro-β-lactams into combination therapies to enhance antiviral effectiveness. These findings lay the foundation for a new
+class of broad-spectrum antivirals capable of addressing both current and emerging viral threats.
+",
+    },
+    {
+      type: "Original Article",
+      year: "2022",
+      title:
+        "High Instantaneous Inhibitory Potential of Bictegravir and the New Spiro-β-Lactam BSS-730A for HIV-2 Isolates from RAL-Naïve and RAL-Failing Patients.",
+      citation:
+        "Bártolo I, Moranguinho I, Gonçalves P, Diniz AR, Borrego P, Martin F, et al. High Instantaneous Inhibitory Potential of Bictegravir and the New Spiro-β-Lactam BSS-730A for HIV-2 Isolates from RAL-Naïve and RAL-Failing Patients. IJMS. 2022 Nov 18;23(22):14300.",
+      doi: "10.3390/ijms232214300",
+      abstract: "Abstract to be added.",
+    },
+    {
       type: "Original Article",
       year: "2022",
       title:
@@ -37,16 +76,6 @@ export default function Publications() {
       citation:
         "Alves AJS, Alves NG, Caratão CC, Esteves MIM, Fontinha D, Bártolo I, et al. Spiro-Lactams as Novel Antimicrobial Agents. CTMC. 2020 Feb 19;20(2):140–52.",
       doi: "10.2174/1568026619666191105110049",
-      abstract: "Abstract to be added.",
-    },
-    {
-      type: "Original Article",
-      year: "2022",
-      title:
-        "High Instantaneous Inhibitory Potential of Bictegravir and the New Spiro-β-Lactam BSS-730A for HIV-2 Isolates from RAL-Naïve and RAL-Failing Patients.",
-      citation:
-        "Bártolo I, Moranguinho I, Gonçalves P, Diniz AR, Borrego P, Martin F, et al. High Instantaneous Inhibitory Potential of Bictegravir and the New Spiro-β-Lactam BSS-730A for HIV-2 Isolates from RAL-Naïve and RAL-Failing Patients. IJMS. 2022 Nov 18;23(22):14300.",
-      doi: "10.3390/ijms232214300",
       abstract: "Abstract to be added.",
     },
   ];
@@ -144,18 +173,7 @@ export default function Publications() {
                 alignItems: "flex-start",
               }}
             >
-              <span
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "700",
-                  color: "#0D9488",
-                  minWidth: "25px",
-                  paddingTop: "4px",
-                }}
-              >
-                {index + 1}.
-              </span>
-
+              
               <h2
                 style={{
                   margin: 0,
@@ -180,18 +198,6 @@ export default function Publications() {
 
             {/* Citação completa */}
             <div>
-              <h3
-                style={{
-                  margin: "0 0 10px 0",
-                  fontSize: "14px",
-                  fontWeight: "700",
-                  color: "#0D9488",
-                  textTransform: "uppercase",
-                  letterSpacing: "0.5px",
-                }}
-              >
-                Full citation
-              </h3>
 
               <p
                 style={{
