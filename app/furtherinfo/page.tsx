@@ -1,8 +1,19 @@
- {/* Separador */}
-      <div
+ export default function Home() {
+  return (
+    <main
+      style={{
+        maxWidth: "1000px",
+        margin: "0 auto",
+        padding: "60px 24px",
+      }}
+    >
+      <h1
         style={{
-          height: "1px",
-          backgroundColor: "#e5e7eb",
-          margin: "60px 0",
+          fontSize: "36px",
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: "30px",
         }}
-      />
+      >
+        Group of Organic Chemistry
+      </h1>
