@@ -34,14 +34,14 @@ export default function RootLayout({
                 alignItems: "center",
                 gap: "15px",
               }}
-            >
-              <Image
-                src="/SPIRAVIRE_log.png"
-                alt="SPIRAVIRE logo"
-                width={90}
-                height={70}
-              />
-
+            <Link href="/">
+  <Image
+    src="/SPIRAVIRE_log.png"
+    alt="SPIRAVIRE logo"
+    width={90}
+    height={70}
+  />
+</Link>
               <div>
                 <h2 style={{ margin: 0 }}>
                   SPIRAVIRE
