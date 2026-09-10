@@ -152,11 +152,21 @@ export default function Publications() {
           color: "#475569",
         }}
       >
-        Publications and related scientific literature supporting the
-        development of broad-spectrum antiviral therapies based on
-        spiro-β-lactam compounds.
+        No publications have been released to date. For further information, please consult the related publications.
       </p>
 
+      
+
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "36px",
+          marginBottom: "20px",
+        }}
+      >
+        Related Publications
+      </h1>
+      
       {/* Lista de publicações */}
       <section
         style={{
