@@ -117,6 +117,10 @@ export default function RootLayout({
               <Link href="/publications" className="footer-link">
                 Publications & Related
               </Link>
+
+              <Link href="/furtherinfo" className="footer-link">
+                Further Information
+              </Link>
             </div>
 
             {/* Partner Institutions */}
