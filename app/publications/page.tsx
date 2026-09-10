@@ -113,10 +113,16 @@ export default function Publications() {
         {
           heading: "",
           text: "Structural modulation of previous identified lead spiro-β-lactams with  antimicrobial activity was carried out. The target chiral spiro-γ-lactams, were synthesized via 1,3-dipolar cycloaddition reaction of a diazo-γ-lactam with electrondeficient dipolarophiles. In vitro activity against HIV and Plasmodium of a wide range of spiro-β-lactams and spiro-γ-lactams was evaluated. Among these compounds, one derivative with good anti-HIV activity and two with promising antiplasmodial activity (IC50 < 3.5 μM) were identified.",
+        },
+        {
           heading: "Objective",
           text: "The main objective of this work was to synthesize and evaluate  the biologic activity of novel spiro-lactams based on previous identified lead compounds with antimicrobial activity.",
+        },
+        {
           heading: "Results",
           text: "A novel synthetic route to chiral spiro-γ-lactams has been  established. The studied β- and γ-lactams were not cytotoxic, and three compounds with promising antimicrobial activity were identified, whose structural modulation may lead to new and more potent drugs.",
+        },
+        {
           heading: "Conclusion",
           text: "The designed structural modulation of biological active spiro-βlactams involved the replacement of the four-membered -lactam ring by a five membered γ-lactam ring. Although, conformational and superimposition computational studies revealed no significant differences between β- and γlactam pharmacophoric features, the studied structural modulation did not lead to compounds with similar biological profile. The observed results suggest that the β-lactamic core is a requirement for the activity against both HIV and Plasmodium.",
         },
