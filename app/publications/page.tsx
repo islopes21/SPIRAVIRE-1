@@ -1,6 +1,23 @@
 export default function Publications() {
   const publications = [
     {
+      type: "Master's Thesis",
+      year: "2025",
+      title: "TÍTULO DA TESE DE MESTRADO",
+      citation:
+        "NOME DO AUTOR. Título da Tese de Mestrado. Master's Thesis. NOME DA INSTITUIÇÃO; 2025.",
+      doi: "",
+      abstract: [
+        {
+          heading: "",
+          text: "RESUMO DA TESE DE MESTRADO.",
+        },
+      ],
+    },
+  ];
+
+  const relatedPublications = [
+    {
       type: "Conference Presentation/Abstract",
       year: "2025",
       title:
@@ -45,7 +62,8 @@ export default function Publications() {
       abstract: [
         {
           heading: "",
-          text: "Integrase inhibitors (INIs) are an important class of drugs for treating HIV-2 infection, given the limited number of drugs active against this virus. While the clinical efficacy of raltegravir and dolutegravir is well established, the clinical efficacy of bictegravir for treating HIV-2 infected patients has not been determined. Little information is available regarding the activity of bictegravir against HIV-2 isolates from patients failing raltegravir-based therapy. In this study, we examined the phenotypic and matched genotypic susceptibility of HIV-2 primary isolates from raltegravir-naïve and raltegravir-failing patients to raltegravir, dolutegravir, and bictegravir, and to the new spiro-β-lactam BSS-730A. The instantaneous inhibitory potential (IIP) was calculated to help predict the clinical activity of bictegravir and BSS-730A. Isolates from raltegravir-naïve patients were highly sensitive to all INIs and BSS-730A. Combined integrase mutations E92A and Q148K conferred high-level resistance to raltegravir, and E92Q and T97A conferred resistance to raltegravir and dolutegravir. The antiviral activity of bictegravir and BSS-730A was not affected by these mutations. BSS-730A displayed strong antiviral synergism with raltegravir. Mean IIP values at Cmax were similar for all INIs and were not significantly affected by resistance mutations. IIP values were significantly higher for BSS-730A than for INIs. The high IIP values of bictegravir and BSS-730A for raltegravir-naïve and raltegravir-resistant HIV-2 isolates highlight their potential value for treating HIV-2 infection. Overall, the results are consistent with the high clinical efficacy of raltegravir and dolutegravir for HIV-2 infection and suggest a promising clinical profile for bictegravir and BSS-730A.",
+          text:
+            "Integrase inhibitors (INIs) are an important class of drugs for treating HIV-2 infection, given the limited number of drugs active against this virus. While the clinical efficacy of raltegravir and dolutegravir is well established, the clinical efficacy of bictegravir for treating HIV-2 infected patients has not been determined. Little information is available regarding the activity of bictegravir against HIV-2 isolates from patients failing raltegravir-based therapy. In this study, we examined the phenotypic and matched genotypic susceptibility of HIV-2 primary isolates from raltegravir-naïve and raltegravir-failing patients to raltegravir, dolutegravir, and bictegravir, and to the new spiro-β-lactam BSS-730A. The instantaneous inhibitory potential (IIP) was calculated to help predict the clinical activity of bictegravir and BSS-730A. Isolates from raltegravir-naïve patients were highly sensitive to all INIs and BSS-730A. Combined integrase mutations E92A and Q148K conferred high-level resistance to raltegravir, and E92Q and T97A conferred resistance to raltegravir and dolutegravir. The antiviral activity of bictegravir and BSS-730A was not affected by these mutations. BSS-730A displayed strong antiviral synergism with raltegravir. Mean IIP values at Cmax were similar for all INIs and were not significantly affected by resistance mutations. IIP values were significantly higher for BSS-730A than for INIs. The high IIP values of bictegravir and BSS-730A for raltegravir-naïve and raltegravir-resistant HIV-2 isolates highlight their potential value for treating HIV-2 infection. Overall, the results are consistent with the high clinical efficacy of raltegravir and dolutegravir for HIV-2 infection and suggest a promising clinical profile for bictegravir and BSS-730A.",
         },
       ],
     },
@@ -62,7 +80,8 @@ export default function Publications() {
       abstract: [
         {
           heading: "",
-          text: "The molecular architecture of spirocyclic compounds has been widely explored within the medicinal chemistry field to obtain new compounds with singular three-dimensional pharmacophoric features and improved bioactivity. Herein, the synthesis of 68 new spirocyclopentene-β-lactams is described, resulting from a rational drug design and structural modulation of a highly promising lead compound BSS-730A, previously identified as having dual antimicrobial activity associated with a novel mechanism of action. Among this diverse library of new compounds, 22 were identified as active against HIV-1, with eight displaying an IC50 lower than 50 nM. These eight compounds also showed nanomolar activity against HIV-2, and six of them displayed micromolar antiplasmodial activity against both the hepatic and the blood stages of infection by malaria parasites, in agreement with the lead molecule’s bioactivity profile. The spirocyclopentene-β-lactams screened also showed low cytotoxicity against TZM-bl and Huh7 human cell lines. Overall, a family of new spirocyclopentene penicillanates with potent activity against HIV and/or Plasmodium was identified. The present structure–activity relationship open avenues for further development of spirocyclopentene-β-lactams as multivalent, highly active broad spectrum antimicrobial agents.",
+          text:
+            "The molecular architecture of spirocyclic compounds has been widely explored within the medicinal chemistry field to obtain new compounds with singular three-dimensional pharmacophoric features and improved bioactivity. Herein, the synthesis of 68 new spirocyclopentene-β-lactams is described, resulting from a rational drug design and structural modulation of a highly promising lead compound BSS-730A, previously identified as having dual antimicrobial activity associated with a novel mechanism of action. Among this diverse library of new compounds, 22 were identified as active against HIV-1, with eight displaying an IC50 lower than 50 nM. These eight compounds also showed nanomolar activity against HIV-2, and six of them displayed micromolar antiplasmodial activity against both the hepatic and the blood stages of infection by malaria parasites, in agreement with the lead molecule’s bioactivity profile. The spirocyclopentene-β-lactams screened also showed low cytotoxicity against TZM-bl and Huh7 human cell lines. Overall, a family of new spirocyclopentene penicillanates with potent activity against HIV and/or Plasmodium was identified. The present structure–activity relationship open avenues for further development of spirocyclopentene-β-lactams as multivalent, highly active broad spectrum antimicrobial agents.",
         },
       ],
     },
@@ -79,7 +98,8 @@ export default function Publications() {
       abstract: [
         {
           heading: "",
-          text: "The synthesis and antimicrobial activity of new spiro-b-lactams is reported. The design of the new molecules was based on the structural modulation of two previously identified lead spiro-penicillanates with dual activity against HIV and Plasmodium. The spiro-b-lactams synthesized were assayed for their in vitro activity against HIV-1, providing relevant structure-activity relationship information. Among the tested compounds, two spirocyclopentenyl-b-lactams were identified as having remarkable nanomolar activity against HIV-1. Additionally, the same molecules showed promising antiplasmodial activity, inhibiting both the hepatic and blood stages of Plasmodium infection.",
+          text:
+            "The synthesis and antimicrobial activity of new spiro-b-lactams is reported. The design of the new molecules was based on the structural modulation of two previously identified lead spiro-penicillanates with dual activity against HIV and Plasmodium. The spiro-b-lactams synthesized were assayed for their in vitro activity against HIV-1, providing relevant structure-activity relationship information. Among the tested compounds, two spirocyclopentenyl-b-lactams were identified as having remarkable nanomolar activity against HIV-1. Additionally, the same molecules showed promising antiplasmodial activity, inhibiting both the hepatic and blood stages of Plasmodium infection.",
         },
       ],
     },
@@ -96,7 +116,8 @@ export default function Publications() {
       abstract: [
         {
           heading: "",
-          text: "The high burden of malaria and HIV/AIDS prevents economic and social progress in developing countries. A continuing need exists for development of novel drugs and treatment regimens for both diseases in order to address the tolerability and long-term safety concerns associated with current treatment options and the emergence of drug resistance. We describe new spiroβ-lactam derivatives with potent (nM) activity against HIV and Plasmodium and no activity against bacteria and yeast. The best performing molecule of the series, BSS-730A, inhibited both HIV-1 and HIV-2 replication with an IC50 of 13 ± 9.59  nM and P. berghei hepatic infection with an IC50 of 0.55 ± 0.14 μM with a clear impact on parasite development. BSS-730A was also active against the erythrocytic stages of P. falciparum, with an estimated IC50 of 0.43 ± 0.04 μM.  Time-of-addition studies showed that BSS-730A potentially affects all stages of the HIV replicative cycle, suggesting a complex mechanism of action. BSS-730A was active against multidrug-resistant HIV isolates, with a median 2.4-fold higher IC50 relative to control isolates. BSS-730A was equally active against R5 and X4 HIV isolates and displayed strong synergism with the entry inhibitor AMD3100. BSS-730A is a promising candidate for development as a potential therapeutic and/or prophylactic agent against HIV and Plasmodium.",
+          text:
+            "The high burden of malaria and HIV/AIDS prevents economic and social progress in developing countries. A continuing need exists for development of novel drugs and treatment regimens for both diseases in order to address the tolerability and long-term safety concerns associated with current treatment options and the emergence of drug resistance. We describe new spiroβ-lactam derivatives with potent (nM) activity against HIV and Plasmodium and no activity against bacteria and yeast. The best performing molecule of the series, BSS-730A, inhibited both HIV-1 and HIV-2 replication with an IC50 of 13 ± 9.59 nM and P. berghei hepatic infection with an IC50 of 0.55 ± 0.14 μM with a clear impact on parasite development. BSS-730A was also active against the erythrocytic stages of P. falciparum, with an estimated IC50 of 0.43 ± 0.04 μM. Time-of-addition studies showed that BSS-730A potentially affects all stages of the HIV replicative cycle, suggesting a complex mechanism of action. BSS-730A was active against multidrug-resistant HIV isolates, with a median 2.4-fold higher IC50 relative to control isolates. BSS-730A was equally active against R5 and X4 HIV isolates and displayed strong synergism with the entry inhibitor AMD3100. BSS-730A is a promising candidate for development as a potential therapeutic and/or prophylactic agent against HIV and Plasmodium.",
         },
       ],
     },
@@ -112,19 +133,23 @@ export default function Publications() {
       abstract: [
         {
           heading: "",
-          text: "Structural modulation of previous identified lead spiro-β-lactams with  antimicrobial activity was carried out. The target chiral spiro-γ-lactams, were synthesized via 1,3-dipolar cycloaddition reaction of a diazo-γ-lactam with electrondeficient dipolarophiles. In vitro activity against HIV and Plasmodium of a wide range of spiro-β-lactams and spiro-γ-lactams was evaluated. Among these compounds, one derivative with good anti-HIV activity and two with promising antiplasmodial activity (IC50 < 3.5 μM) were identified.",
+          text:
+            "Structural modulation of previous identified lead spiro-β-lactams with antimicrobial activity was carried out. The target chiral spiro-γ-lactams were synthesized via 1,3-dipolar cycloaddition reaction of a diazo-γ-lactam with electrondeficient dipolarophiles. In vitro activity against HIV and Plasmodium of a wide range of spiro-β-lactams and spiro-γ-lactams was evaluated. Among these compounds, one derivative with good anti-HIV activity and two with promising antiplasmodial activity (IC50 < 3.5 μM) were identified.",
         },
         {
           heading: "Objective",
-          text: "The main objective of this work was to synthesize and evaluate  the biologic activity of novel spiro-lactams based on previous identified lead compounds with antimicrobial activity.",
+          text:
+            "The main objective of this work was to synthesize and evaluate the biologic activity of novel spiro-lactams based on previous identified lead compounds with antimicrobial activity.",
         },
         {
           heading: "Results",
-          text: "A novel synthetic route to chiral spiro-γ-lactams has been  established. The studied β- and γ-lactams were not cytotoxic, and three compounds with promising antimicrobial activity were identified, whose structural modulation may lead to new and more potent drugs.",
+          text:
+            "A novel synthetic route to chiral spiro-γ-lactams has been established. The studied β- and γ-lactams were not cytotoxic, and three compounds with promising antimicrobial activity were identified, whose structural modulation may lead to new and more potent drugs.",
         },
         {
           heading: "Conclusion",
-          text: "The designed structural modulation of biological active spiro-βlactams involved the replacement of the four-membered -lactam ring by a five membered γ-lactam ring. Although, conformational and superimposition computational studies revealed no significant differences between β- and γlactam pharmacophoric features, the studied structural modulation did not lead to compounds with similar biological profile. The observed results suggest that the β-lactamic core is a requirement for the activity against both HIV and Plasmodium.",
+          text:
+            "The designed structural modulation of biological active spiro-β-lactams involved the replacement of the four-membered β-lactam ring by a five membered γ-lactam ring. Although, conformational and superimposition computational studies revealed no significant differences between β- and γ-lactam pharmacophoric features, the studied structural modulation did not lead to compounds with similar biological profile. The observed results suggest that the β-lactamic core is a requirement for the activity against both HIV and Plasmodium.",
         },
       ],
     },
@@ -152,29 +177,11 @@ export default function Publications() {
           color: "#475569",
         }}
       >
-        No publications have been released to date. For further information, please consult the related publications.
+        Publications resulting from the SPIRAVIRE project and related research
+        activities.
       </p>
 
-       {/* Separador */}
-      <div
-        style={{
-          height: "1px",
-          backgroundColor: "#e5e7eb",
-          margin: "60px 0",
-        }}
-      />
-
-      <h1
-        style={{
-          textAlign: "center",
-          fontSize: "36px",
-          marginBottom: "20px",
-        }}
-      >
-        Related Publications
-      </h1>
-      
-      {/* Lista de publicações */}
+      {/* Publications */}
       <section
         style={{
           maxWidth: "1050px",
@@ -185,6 +192,253 @@ export default function Publications() {
         }}
       >
         {publications.map((publication, index) => (
+          <article
+            key={`${publication.type}-${publication.year}-${index}`}
+            style={{
+              backgroundColor: "#ffffff",
+              border: "1px solid #dbe5ee",
+              borderRadius: "18px",
+              padding: "30px 35px",
+              boxShadow: "0 6px 22px rgba(0, 0, 0, 0.05)",
+              boxSizing: "border-box",
+            }}
+          >
+            {/* Tipo + ano */}
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                marginBottom: "18px",
+              }}
+            >
+              <span
+                style={{
+                  display: "inline-block",
+                  padding: "6px 12px",
+                  borderRadius: "20px",
+                  backgroundColor: "#e6f4f5",
+                  color: "#0D9488",
+                  fontSize: "12px",
+                  fontWeight: "700",
+                  letterSpacing: "0.4px",
+                  textTransform: "uppercase",
+                }}
+              >
+                {publication.type}
+              </span>
+
+              <span
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  color: "#64748b",
+                }}
+              >
+                {publication.year}
+              </span>
+            </div>
+
+            {/* Número + título */}
+            <div
+              style={{
+                display: "flex",
+                gap: "15px",
+                alignItems: "flex-start",
+              }}
+            >
+              <span
+                style={{
+                  fontSize: "15px",
+                  fontWeight: "700",
+                  color: "#0D9488",
+                  minWidth: "25px",
+                  paddingTop: "4px",
+                }}
+              >
+                {index + 1}.
+              </span>
+
+              <h2
+                style={{
+                  margin: 0,
+                  fontSize: "23px",
+                  lineHeight: "1.4",
+                  fontWeight: "600",
+                  color: "#0F172A",
+                }}
+              >
+                {publication.title}
+              </h2>
+            </div>
+
+            {/* Separador */}
+            <div
+              style={{
+                height: "1px",
+                backgroundColor: "#e5e7eb",
+                margin: "25px 0",
+              }}
+            />
+
+            {/* Citação completa */}
+            <div>
+              <h3
+                style={{
+                  margin: "0 0 10px 0",
+                  fontSize: "13px",
+                  fontWeight: "700",
+                  color: "#0D9488",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.5px",
+                }}
+              >
+                Full citation
+              </h3>
+
+              <p
+                style={{
+                  margin: 0,
+                  fontSize: "14px",
+                  lineHeight: "1.7",
+                  color: "#475569",
+                }}
+              >
+                {publication.citation}
+              </p>
+
+              {/* DOI — só aparece quando existe */}
+              {publication.doi && (
+                <p
+                  style={{
+                    marginTop: "10px",
+                    fontSize: "13px",
+                  }}
+                >
+                  <a
+                    href={`https://doi.org/${publication.doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: "#0D9488",
+                      textDecoration: "none",
+                      fontWeight: "600",
+                    }}
+                  >
+                    doi:{publication.doi}
+                  </a>
+                </p>
+              )}
+            </div>
+
+            {/* Caixa do Abstract */}
+            <div
+              style={{
+                marginTop: "25px",
+                padding: "18px 20px",
+                backgroundColor: "#f8fafc",
+                border: "1px solid #e2e8f0",
+                borderRadius: "10px",
+              }}
+            >
+              <h3
+                style={{
+                  margin: "0 0 15px 0",
+                  fontSize: "12px",
+                  fontWeight: "700",
+                  color: "#0D9488",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.5px",
+                }}
+              >
+                Abstract
+              </h3>
+
+              {/* Secções do abstract */}
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "14px",
+                }}
+              >
+                {publication.abstract.map((section, sectionIndex) => (
+                  <div key={sectionIndex}>
+                    {section.heading && (
+                      <h4
+                        style={{
+                          margin: "0 0 4px 0",
+                          fontSize: "12px",
+                          fontWeight: "700",
+                          color: "#334155",
+                        }}
+                      >
+                        {section.heading}
+                      </h4>
+                    )}
+
+                    <p
+                      style={{
+                        margin: 0,
+                        fontSize: "12px",
+                        lineHeight: "1.7",
+                        color: "#64748b",
+                      }}
+                    >
+                      {section.text}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </article>
+        ))}
+      </section>
+
+      {/* Separador */}
+      <div
+        style={{
+          height: "1px",
+          backgroundColor: "#e5e7eb",
+          margin: "70px 0",
+        }}
+      />
+
+      {/* Related Publications */}
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "36px",
+          marginBottom: "20px",
+        }}
+      >
+        Related Publications
+      </h1>
+
+      <p
+        style={{
+          maxWidth: "850px",
+          margin: "0 auto 50px auto",
+          textAlign: "center",
+          lineHeight: "1.7",
+          color: "#475569",
+        }}
+      >
+        Publications related to the scientific background and research
+        supporting the SPIRAVIRE project.
+      </p>
+
+      {/* Lista de Related Publications */}
+      <section
+        style={{
+          maxWidth: "1050px",
+          margin: "0 auto",
+          display: "flex",
+          flexDirection: "column",
+          gap: "25px",
+        }}
+      >
+        {relatedPublications.map((publication, index) => (
           <article
             key={publication.doi}
             style={{
@@ -301,25 +555,27 @@ export default function Publications() {
               </p>
 
               {/* DOI */}
-              <p
-                style={{
-                  marginTop: "10px",
-                  fontSize: "13px",
-                }}
-              >
-                <a
-                  href={`https://doi.org/${publication.doi}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
+              {publication.doi && (
+                <p
                   style={{
-                    color: "#0D9488",
-                    textDecoration: "none",
-                    fontWeight: "600",
+                    marginTop: "10px",
+                    fontSize: "13px",
                   }}
                 >
-                  doi:{publication.doi}
-                </a>
-              </p>
+                  <a
+                    href={`https://doi.org/${publication.doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: "#0D9488",
+                      textDecoration: "none",
+                      fontWeight: "600",
+                    }}
+                  >
+                    doi:{publication.doi}
+                  </a>
+                </p>
+              )}
             </div>
 
             {/* Caixa do Abstract */}
