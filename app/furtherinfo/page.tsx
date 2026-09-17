@@ -6,6 +6,16 @@ export default function Information() {
       title: "Selection of the Applicant - MSc student for iMed.ULisboa",
       text: "A fellowship call was launched within the SPIRAVIRE project to recruit a researcher to support the research activities to be carried out at iMed.ULisboa. Following the selection process, Paloma Gonçalves, PhD student, was selected to join the project and contribute to the implementation of its research objectives, particularly in the evaluation and characterisation of the antiviral activity of spiro-β-lactam compounds against respiratory viruses.",
     },
+
+    {
+      date: "17 September 2026",
+      category: "New publication - Master's thesis",
+      title: "Synthesis of Novel Chiral Penicillanates: Expansion of the β-Lactam Family",
+      text: "The first publication arising from the SPIRAVIRE project has now been published: the Master’s thesis of João Pedro Sousa e Silva, entitled “Synthesis of Novel Chiral Penicillanates: Expansion of the β-Lactam Family”. This work contributes to the expansion of the chiral spiro-β-lactam family through the development of new synthetic strategies and the preparation of novel spiro-β-lactam scaffolds. The full thesis is available in the",
+      linkText: "Publications",
+      link: "/publications",
+    },
+
     {
       date: "11 August 2026",
       category: "Fellowship Call",
@@ -13,18 +23,21 @@ export default function Information() {
       text: "A fellowship call was launched within the SPIRAVIRE project to recruit a researcher to support the activities to be carried out at iMed.ULisboa. The fellowship will contribute to the implementation of the project’s research objectives, particularly in the evaluation and characterisation of the antiviral activity of spiro-β-lactam compounds against respiratory viruses.",
       link: "https://ciiem.egasmoniz.edu.pt/careers/call-for-applications-for-the-award-of-a-research-fellowship-bi-1",
     },
+
     {
       date: "20 April 2026",
       category: "Training & Capacity Building",
       title: "Course on Laboratory Animal Science in Rodents (for Functions A+C+D)",
       text: "As part of the SPIRAVIRE project, Inês Lopes, PhD student, attended the Course on Laboratory Animal Science in Rodents (for Functions A+C+D). This training provided the necessary knowledge and competencies to support the responsible and appropriate use of laboratory animals and enabled her to fulfil the training requirements associated with one of the project’s objectives involving in vivo studies.",
     },
+
     {
       date: "1 January 2026",
       category: "Team Meeting",
       title: "Kick-off Meeting",
       text: "The SPIRAVIRE project officially commenced with a kick-off meeting bringing together the consortium partners to establish a common framework for the project’s implementation. The meeting focused on aligning the project timelines, defining key milestones and deliverables, and coordinating the activities and responsibilities of each partner. This initial discussion provided an important foundation for effective time management, collaboration and monitoring of progress throughout the project.",
     },
+
     {
       date: "26 November 2025",
       category: "Intellectual Property",
@@ -152,11 +165,26 @@ export default function Information() {
                   fontSize: "15px",
                 }}
               >
-                {update.text}
+                {update.text}{" "}
+                {update.link && update.linkText && (
+                  <>
+                    <a
+                      href={update.link}
+                      style={{
+                        color: "#2563eb",
+                        textDecoration: "none",
+                        fontWeight: "600",
+                      }}
+                    >
+                      {update.linkText}
+                    </a>
+                    .
+                  </>
+                )}
               </p>
 
               {/* External link */}
-              {update.link && (
+              {update.link && !update.linkText && (
                 <a
                   href={update.link}
                   target="_blank"
