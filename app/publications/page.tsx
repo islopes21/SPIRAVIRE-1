@@ -3,9 +3,10 @@ export default function Publications() {
     {
       type: "Master's Thesis",
       year: "2026",
-      title: "Synthesis of Novel Chiral Penincillanates: Expension of the β-Lactam Family",
+      title: "Synthesis of Novel Chiral Penicillanates: Expension of the β-Lactam Family",
       citation:
-        "João Pedro Sousa e Silva. TSynthesis of Novel Chiral Penincillanates: Expension of the β-Lactam Family. Master's Thesis. Faculty of Sciences and Technology of the University of Coimbra; 2026.",
+        "João Pedro Sousa e Silva. TSynthesis of Novel Chiral Penicillanates: Expension of the β-Lactam Family. Master's Thesis. Faculty of Sciences and Technology of the University of Coimbra; 2026.",
+      doi: "",
       abstract: [
         {
           heading: "",
