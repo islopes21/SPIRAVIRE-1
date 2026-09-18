@@ -30,6 +30,22 @@ export default function Publications() {
 
   const relatedPublications = [
     {
+      type: "Original Article",
+      year: "2025",
+      title:
+        "Synthesis of Chiral Spirocyclopropanepenicillanates via [2 + 1] Annulation of 6‑Alkylidenepenicillanates and Sulfur Ylides",
+      citation:
+        "João V. R. Gonçalves, Ricardo M. Carvalho, Jéssica Macedo, Paloma Gonçalves, Inês Bártolo, Américo J. S. Alves, José A. Paixão, Nuno Taveira, Teresa M. V. D. Pinho e Melo; Synthesis of Chiral Spirocyclopropanepenicillanates via [2 + 1] Annulation of 6‑Alkylidenepenicillanates and Sulfur Ylides. Journal of Organic Chemistry 25 July 2025; 90 (29): 10225–10234.",
+      doi: "https://doi.org/10.1021/acs.joc.5c00743",
+      abstract: [
+        {
+          heading: "",
+          text:
+            "An unexplored reactivity of 6-(Z)-alkylidenepenicillanates was unveiled, describing the synthesis of compounds having a cyclopropane ring spiro-fused to the penicillanic core. This was achieved via the in situ generation of sulfur ylide intermediates from the corresponding sulfur salts, which react with 6-(Z)-alkylidenepenicillanates, leading to spirocyclopropanepenicillanates. The formal [2 + 1] cycloaddition, which involved the creation of three new chiral centers, proved to be diastereoselective, affording the new chiral spiropenicillanates in good yields. Notably, one spiro-β-lactam exhibited excellent anti-HIV-1 activity.",
+        },
+      ],
+    },
+    {
       type: "Conference Presentation/Abstract",
       year: "2025",
       title:
