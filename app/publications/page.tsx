@@ -10,9 +10,20 @@ export default function Publications() {
       abstract: [
         {
           heading: "",
-          text: 
-            "The work presented in this Master’s thesis had the main objective of expanding the chiral spiro-β-lactam family through the diversification of two synthetic platforms: the phosphine-catalysed formal [3+2] cycloaddition, previously es tablished for the synthesis of spirocyclopentenepenicillanates, and an alternative tertiary amine-catalysed strategy explored for the first time towards heterocyclic, oxygen-containing spiro-β-lactam scaffolds. The motivation for this work stems from the therapeutic potential of spiropeni cillanates as broad-spectrum antimicrobial agents, first evidenced by the lead compound BSS-730A, which displayed excellent nanomolar activity against mul tiple strains of HIV-1 and HIV-2, including multi-resistant strains. BSS-730A also showed antiparasitic activity against both the hepatic and erythrocytic stages of Plasmodium infection. Building on the extensive family of spirocyclopentenepenicil lanates derived from this lead molecule, two complementary synthetic approaches were pursued to further expand the chemical space of chiral spiropenicillanates. Firstly, the implemented synthetic route for the synthesis of spirocyclopente nepenicillanates’ precursors was optimised at key steps, leading to the develop ment of a greener, morescalable synthesis of diphenyldiazomethane and to a novel biphasic diazotisation methodology for the synthesis of the 6-diazopenicillanate intermediate. Additionally, this family of chiral spiropenicillanates was expanded through the structural diversification of positions 1’ and 2’ of the spirocyclo pentene ring. Two new 6-(Z)-alkylidenepenicillanates bearing thienoyl and N benzylpyrroyl substituents were synthesised and subjected to phosphine-catalysed formal [3+2] cycloadditions with a series of monosubstituted allenoates, affording sixteen novel heteroaryl-substituted spirocyclopentene-β-lactams. The exploratory structural variation of the allenoate-derived ester function at position 2’ was also investigated, leading to the synthesis of the first spiro-β-lactams of this class bearing a non-ester substituent at this position. Secondly, an alternative Lewis base catalytic strategy was explored through the tertiary amine-catalysed formal [4+2] cycloaddition of 6-alkylidenepenicillanates with allenoates, leading to the first report of heterocyclic six-membered spiro-β lactams. 1,4-Diazabicyclo[2.2.2]octane catalysis consistently and diastereoselect ively afforded the formal [4+2] cycloadduct, spiropyranpenicillanate, together with the competing Rauhut-Currier adduct, an allene-bearing β-lactam. In con trast, 4-(dimethylamino)pyridine catalysis proved selective for the exclusive, albeit lower-yielding, formation of the spiropyran cycloadduct. Extension of the optimised conditions to a small library of aryl- and heteroaryl-substituted 6-(Z)-alkylidenepenicillanate substrates afforded five new chiral spiropyranpeni cillanates and five new chiral allene-bearing β-lactams, with structures and stereo chemistry established through extensive nuclear magnetic resonance analysis and corroborated by density functional theory calculations. The developed methodology was further transposed to continuous-flow conditions, affording comparable isolated yields to the batch process while delivering a 6- to 8-fold increase in production rate. ix Taken together, the synthetic strategies and novel chiral spiro-β-lactams de scribed in this thesis establish a diversified structural platform, encompassing both carbocyclic and, for the first time, O-heterocyclic spiro-β-lactam scaffolds, laying the groundwork for the future biological evaluation of these compounds and for further structure-activity relationship studies within the chiral penicillanates chemical space. Keywords: spiro-β-lactams; chiral penicillanates; BSS-730A; phosphine catalysis; tertiary amine catalysis; formal [3+2] cycloaddition; formal [4+2] cycloaddition; Rauhut-Currier reaction; continuous-flow chemistry",
+          text:
+            "The work presented in this Master’s thesis had the main objective of expanding the chiral spiro-β-lactam family through the diversification of two synthetic platforms: the phosphine-catalysed formal [3+2] cycloaddition, previously established for the synthesis of spirocyclopentenepenicillanates, and an alternative tertiary amine-catalysed strategy explored for the first time towards heterocyclic, oxygen-containing spiro-β-lactam scaffolds. The motivation for this work stems from the therapeutic potential of spiropenicillanates as broad-spectrum antimicrobial agents, first evidenced by the lead compound BSS-730A, which displayed excellent nanomolar activity against multiple strains of HIV-1 and HIV-2, including multi-resistant strains. BSS-730A also showed antiparasitic activity against both the hepatic and erythrocytic stages of Plasmodium infection. Building on the extensive family of spirocyclopentenepenicillanates derived from this lead molecule, two complementary synthetic approaches were pursued to further expand the chemical space of chiral spiropenicillanates. Firstly, the implemented synthetic route for the synthesis of spirocyclopentenepenicillanates’ precursors was optimised at key steps, leading to the development of a greener, more scalable synthesis of diphenyldiazomethane and to a novel biphasic diazotisation methodology for the synthesis of the 6-diazopenicillanate intermediate. Additionally, this family of chiral spiropenicillanates was expanded through the structural diversification of positions 1’ and 2’ of the spirocyclopentene ring. Two new 6-(Z)-alkylidenepenicillanates bearing thienoyl and N-benzylpyrroyl substituents were synthesised and subjected to phosphine-catalysed formal [3+2] cycloadditions with a series of monosubstituted allenoates, affording sixteen novel heteroaryl-substituted spirocyclopentene-β-lactams. The exploratory structural variation of the allenoate-derived ester function at position 2’ was also investigated, leading to the synthesis of the first spiro-β-lactams of this class bearing a non-ester substituent at this position. Secondly, an alternative Lewis base catalytic strategy was explored through the tertiary amine-catalysed formal [4+2] cycloaddition of 6-alkylidenepenicillanates with allenoates, leading to the first report of heterocyclic six-membered spiro-β-lactams. 1,4-Diazabicyclo[2.2.2]octane catalysis consistently and diastereoselectively afforded the formal [4+2] cycloadduct, spiropyranpenicillanate, together with the competing Rauhut-Currier adduct, an allene-bearing β-lactam. In contrast, 4-(dimethylamino)pyridine catalysis proved selective for the exclusive, albeit lower-yielding, formation of the spiropyran cycloadduct. Extension of the optimised conditions to a small library of aryl- and heteroaryl-substituted 6-(Z)-alkylidenepenicillanate substrates afforded five new chiral spiropyranpenicillanates and five new chiral allene-bearing β-lactams, with structures and stereochemistry established through extensive nuclear magnetic resonance analysis and corroborated by density functional theory calculations. The developed methodology was further transposed to continuous-flow conditions, affording comparable isolated yields to the batch process while delivering a 6- to 8-fold increase in production rate. Taken together, the synthetic strategies and novel chiral spiro-β-lactams described in this thesis establish a diversified structural platform, encompassing both carbocyclic and, for the first time, O-heterocyclic spiro-β-lactam scaffolds, laying the groundwork for the future biological evaluation of these compounds and for further structure-activity relationship studies within the chiral penicillanates chemical space.",
         },
+      ],
+      keywords: [
+        "spiro-β-lactams",
+        "chiral penicillanates",
+        "BSS-730A",
+        "phosphine catalysis",
+        "tertiary amine catalysis",
+        "formal [3+2] cycloaddition",
+        "formal [4+2] cycloaddition",
+        "Rauhut-Currier reaction",
+        "continuous-flow chemistry",
       ],
     },
   ];
@@ -26,7 +37,6 @@ export default function Publications() {
       citation:
         "Gonçalves P, Rocha C, Correia V, Santos LA, Rebelo-De-Andrade H, Bártolo I, Lopes I, Alves NG, Alves AJS, Alves De Matos AP, Pöhlmann S, Pinho Melo TMVD, Taveira N. Broad-spectrum antiviral activity of spiro-beta-lactams: targeting SARS-CoV-2, influenza, and HIV through ferroptosis induction [poster]. ESCMID Global 2025; 2025; Vienna, Austria. Poster P0189/06221.",
       doi: "10.1016/j.cmicom.2025.105086",
-
       abstract: [
         {
           heading: "Background",
@@ -59,7 +69,6 @@ export default function Publications() {
       citation:
         "Bártolo I, Moranguinho I, Gonçalves P, Diniz AR, Borrego P, Martin F, et al. High Instantaneous Inhibitory Potential of Bictegravir and the New Spiro-β-Lactam BSS-730A for HIV-2 Isolates from RAL-Naïve and RAL-Failing Patients. IJMS. 2022 Nov 18;23(22):14300.",
       doi: "10.3390/ijms232214300",
-
       abstract: [
         {
           heading: "",
@@ -77,7 +86,6 @@ export default function Publications() {
       citation:
         "Alves AJS, Alves NG, Bártolo I, Fontinha D, Caetano S, Prudêncio M, et al. Unveiling a family of spiro-β-lactams with anti-HIV and antiplasmodial activity via phosphine-catalyzed [3+2] annulation of 6-alkylidene-penicillanates and allenoates. Front Chem. 2022 Oct 7;10:1017250.",
       doi: "10.3389/fchem.2022.1017250",
-
       abstract: [
         {
           heading: "",
@@ -95,7 +103,6 @@ export default function Publications() {
       citation:
         "Alves NG, Bártolo I, Alves AJS, Fontinha D, Francisco D, Lopes SMM, et al. Synthesis and structure-activity relationships of new chiral spiro-β-lactams highly active against HIV-1 and Plasmodium. European Journal of Medicinal Chemistry. 2021 Jul;219:113439.",
       doi: "10.1016/j.ejmech.2021.113439",
-
       abstract: [
         {
           heading: "",
@@ -108,12 +115,10 @@ export default function Publications() {
     {
       type: "Original Article",
       year: "2021",
-      title:
-        "Spiro-β-lactam BSS-730A Displays Potent Activity against HIV and Plasmodium.",
+      title: "Spiro-β-lactam BSS-730A Displays Potent Activity against HIV and Plasmodium.",
       citation:
         "Bártolo I, Santos BS, Fontinha D, Machado M, Francisco D, Sepodes B, et al. Spiro-β-lactam BSS-730A Displays Potent Activity against HIV and Plasmodium. ACS Infect Dis. 2021 Feb 12;7(2):421–34.",
       doi: "10.1021/acsinfecdis.0c00768",
-
       abstract: [
         {
           heading: "",
@@ -130,7 +135,6 @@ export default function Publications() {
       citation:
         "Alves AJS, Alves NG, Caratão CC, Esteves MIM, Fontinha D, Bártolo I, et al. Spiro-Lactams as Novel Antimicrobial Agents. CTMC. 2020 Feb 19;20(2):140–52.",
       doi: "10.2174/1568026619666191105110049",
-
       abstract: [
         {
           heading: "",
@@ -392,6 +396,43 @@ export default function Publications() {
                 ))}
               </div>
             </div>
+
+            {/* Caixa das Keywords */}
+            {publication.keywords && (
+              <div
+                style={{
+                  marginTop: "15px",
+                  padding: "18px 20px",
+                  backgroundColor: "#f8fafc",
+                  border: "1px solid #e2e8f0",
+                  borderRadius: "10px",
+                }}
+              >
+                <h3
+                  style={{
+                    margin: "0 0 12px 0",
+                    fontSize: "12px",
+                    fontWeight: "700",
+                    color: "#0D9488",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.5px",
+                  }}
+                >
+                  Keywords
+                </h3>
+
+                <p
+                  style={{
+                    margin: 0,
+                    fontSize: "12px",
+                    lineHeight: "1.7",
+                    color: "#64748b",
+                  }}
+                >
+                  {publication.keywords.join("; ")}
+                </p>
+              </div>
+            )}
           </article>
         ))}
       </section>
