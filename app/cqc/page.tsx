@@ -57,34 +57,19 @@ export default function Home() {
           <p>CiênciaID: 9A1E-2767-EEE1</p>
         </div>
 
-        {/* Américo */}
-        <div style={{ textAlign: "center" }}>
-          <Image
-            src="/Americo.png"
-            alt="Americo Alves"
-            width={200}
-            height={200}
-            style={{ objectFit: "contain" }}
-          />
-
-          <h3>Américo Alves, PhD, MD</h3>
-
-          <p>CiênciaID: A018-F2DF-D0C4</p>
-        </div>
-
-        {/* MSc researcher */}
+        {/* Bruna Costa */}
         <div style={{ textAlign: "center" }}>
           <Image
             src="/Unknown.png"
-            alt="MSc researcher"
+            alt="Bruna Costa"
             width={200}
             height={200}
             style={{ objectFit: "contain" }}
           />
 
-          <h3>MSc researcher</h3>
+          <h3>Bruna Costa, MD</h3>
 
-          <p>To be recruited</p>
+          <p>CiênciaID:</p>
         </div>
       </div>
     </main>
