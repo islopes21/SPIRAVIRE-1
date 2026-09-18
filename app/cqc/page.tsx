@@ -37,7 +37,7 @@ export default function Home() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
+          gridTemplateColumns: "repeat(2, 1fr)",
           gap: "30px",
           marginTop: "30px",
         }}
