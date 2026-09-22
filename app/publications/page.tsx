@@ -26,9 +26,109 @@ export default function Publications() {
         "continuous-flow chemistry",
       ],
     },
+    {
+      type: "Conference Presentation/Abstract",
+      year: "2026",
+      title: "Novel Spiro-b-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents",
+      citation:
+        "Novel Spiro-b-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents, João Pedro Sousa e Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, 2026 AIMS Meeting – Annual International Medical Students Meeting, Associação de Estudantes da Faculdade de Medicina de Lisboa, Abril 2026, Lisboa.",    doi: "",
+      abstract: [
+        {
+          heading: "Introduction",
+          text:
+            "Influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. The development of broad-spectrum antivirals that can overcome resistance is a high priority and will make a major contribution to the treatment of infections caused by RNA viruses. Recently, our research team has unveiled a series of spiropenicillanates with potent in vitro activity against HIV, influenza and SARS-CoV-2.",
+        },
+        {
+          heading: "Objectives",
+          text:
+            "This work aims to expand the chemical space of bioactive spiro-β-lactams through the development of new synthetic methodologies leading to structurally diverse chiral spiropenicillanates with potential application as new broad-spectrum antivirals. ",
+        },
+        {
+          heading: "Methods",
+          text:
+            "The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates, respectively. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral β-lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed. ",
+        },
+        {
+          heading: "Results",
+          text:
+            "The reactions enabled the formation of structurally diverse β-lactam derivatives through divergent reaction pathways. Depending on the catalyst employed, either spirocyclic products arising from formal [4+2] annulation reactions or chiral allene-bearing penicillanates generated via Rauhut–Currier processes were obtained. DABCO promoted both pathways, yielding mixtures of spirocyclic and allenic products, whereas DMAP selectively afforded spirocyclic derivatives. Optimization studies demonstrated that reaction conditions significantly influence product distribution and yield. Continuous flow synthesis provided comparable selectivity while considerably reducing reaction times. ",
+        },
+        {
+          heading: "Discussion and Conclusions",
+          text:
+            "These results demonstrate that nitrogen-base-catalysed annulation reactions constitute an efficient strategy for generating structurally diverse chiral spiropenicillanates. The methodology expands the accessible chemical space of spiro-β-lactams and provides new scaffolds for future evaluation as potential broad-spectrum antivirals targeting RNA virus infections. ",
+        },
+      ],
+      keywords: [
+        "",
+      ],
+    },
+    {
+      type: "Conference Presentation/Abstract",
+      year: "2026",
+      title: "Allene-Driven Construction of Structurally Diverse Chiral Spiro-β-Lactams from 6-Alkylidenepenicillanates",
+      citation:
+        "Allene-Driven Construction of Structurally Diverse Chiral Spiro-β-Lactams from 6-Alkylidenepenicillanates, João P. S. Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, 16.º Encontro Nacional de Química Orgânica (ENQO) / 9.º Encontro Nacional de Química Medicinal e Biológica, Faculdade de Ciências, Universidade de Lisboa, 11-13 de Fevereiro 2026.",
+      doi: "",
+      abstract: [
+        {
+          heading: "",
+          text:
+            "Influenza, respiratory syncytial virus, and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Most of the scarcely available drugs for these RNA viruses are virus-specific, leading to drug resistance. The development of broad-spectrum host-directed antivirals offers a promising solution to this challenge, exemplified by the recent discovery of novel spiropenicillanates with a disruptive therapeutic profile by our research team. This work focuses on expanding the chemical space of chiral spiro-β-lactams derived from 6-alkylidenepenicillanates. Triphenylphosphine-catalysed formal [3+2] cycloaddition of allenyl ketones and tetrazolyl-allenes afforded spirocyclopentene-β-lactams with a novel substitution pattern. The use of nitrogen-containing bases allowed for divergent annulation pathways, enabling access to previously unexplored spiropyran, spirodihydropyran, and allene-bearing penicillanates.  ",
+        },
+      ],
+      keywords: [
+        "",
+      ],
+    },
   ];
 
   const relatedPublications = [
+    {
+      type: "Conference Presentation/Abstract",
+      year: "2025",
+      title:
+        "Novel Spiro-b-lactams as Broad-Spectrum Host-Directed Antimicrobial Agents: Enhancing Preparedness for Emerging Viral Threats and Future Pandemics",
+      citation:
+        "Novel Spiro-b-lactams as Broad-Spectrum Host-Directed Antimicrobial Agents: Enhancing Preparedness for Emerging Viral Threats and Future Pandemics, João P. S. Silva, Jéssica Macedo, Américo J. S, Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, IMS Day 2025, 28 November 2025, Instituto Superior Técnico, Lisboa."      abstract: [
+        {
+          heading: "",
+          text:
+            "Influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Few effective drugs are currently available for these RNA viruses, and most are virus-specific, leading to drug resistance. The development of broad-spectrum antivirals that can overcome resistance is a high priority and will make a major contribution to the treatment of infections caused by RNA viruses, thereby improving preparedness for pandemic threats posed by these viruses. Recently, our research team has unveiled a series of spiropenicillanates with potent in vitro activity against HIV, influenza and SARS-CoV-2. The current study goes further on penicillanates’ research and drug development as potential new broad spectrum antivirals by exploring different methodologies to expand the chemical space. The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral -lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed.",
+       },
+      ],
+    },
+    {
+      type: "Flash Communication",
+      year: "2025",
+      title:
+        "Development of Chiral Spiropenicillanates Through Nitrogen-Base Catalysed Allenoate Reactions: Expanding β-Lactam Chemical Space",
+      citation:
+        "Development of Chiral Spiropenicillanates Through Nitrogen-Base Catalysed Allenoate Reactions: Expanding β-Lactam Chemical Space, João P. S. Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V D. Pinho e Melo, International Symposium on Synthesis and Catalysis (ISySyCat 2025), 2-5 de Setembro de 2025, Coimbra."      doi: "",
+      abstract: [
+        {
+          heading: "",
+          text:
+            "Spirocyclic β-lactams are privileged scaffolds in medicinal chemistry due to their rigid three-dimensional architecture, high fraction of sp³-hybridized carbons, and favourable pharmacokinetic profiles. These features contribute to enhanced bioavailability, metabolic stability, and target selectivity. Our group has previously developed spiro-β-lactam derivatives, including the lead compound BSS-730A, which displays potent, broad-spectrum host-directed antiviral activity. The urgent need for broad-spectrum antivirals (BSAs) is underscored by the recurring emergence of RNA viruses. Traditional antiviral therapies typically target virus-specific proteins and are susceptible to rapid resistance development. In contrast, host directed antivirals (HDAs) offer a promising alternative, acting on conserved host cell pathways essential for viral replication."
+        },
+      ],
+    },
+    {
+      type: "Symposium Presentation/Abstract",
+      year: "2025",
+      title:
+        "Synthesis of novel chiral penicillanates through nitrogen-base catalysed reaction of 6-alkylidenepenicillanates and allenoates",
+      citation:
+        "Synthesis of novel chiral penicillanates through nitrogen-base catalysed reaction of 6-alkylidenepenicillanates and allenoates, João P. S. Silva, Jéssica Macedo, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, 28th International Symposium: Synthesis in Organic Chemistry, Homerton College, Cambridge, UK, 21–24 July 2025.",
+      doi: "",
+      abstract: [
+        {
+          heading: "",
+          text:
+            "Influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Few effective drugs are currently available for these RNA viruses, and most are virus-specific, leading to drug resistance. The development of broad-spectrum antivirals that can overcome resistance is a high priority and will make a major contribution to the treatment of infections caused by RNA viruses, thereby improving preparedness for pandemic threats posed by these viruses. Recently, our research team has unveiled a series of spiropenicillanates with potent in vitro activity against HIV, influenza and SARS-CoV-2. The current study goes further on penicillanates’ research and drug development as potential new broad spectrum antivirals by exploring different methodologies to expand the chemical space. The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral -lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed.",
+  },
+      ],
+    },
     {
       type: "Original Article",
       year: "2025",
