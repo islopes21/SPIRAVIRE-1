@@ -29,9 +29,10 @@ export default function Publications() {
     {
       type: "Conference Presentation/Abstract",
       year: "2026",
-      title: "Novel Spiro-b-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents",
+      title: "Novel Spiro-beta-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents",
       citation:
-        "Novel Spiro-b-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents, João Pedro Sousa e Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, 2026 AIMS Meeting – Annual International Medical Students Meeting, Associação de Estudantes da Faculdade de Medicina de Lisboa, Abril 2026, Lisboa.",    doi: "",
+        "Novel Spiro-beta-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents, João Pedro Sousa e Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, 2026 AIMS Meeting – Annual International Medical Students Meeting, Associação de Estudantes da Faculdade de Medicina de Lisboa, Abril 2026, Lisboa.",    
+      doi: "",
       abstract: [
         {
           heading: "Introduction",
