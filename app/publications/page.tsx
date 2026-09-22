@@ -513,44 +513,41 @@ export default function Publications() {
             </div>
 
             {/* Caixa das Keywords */}
-{publication.keywords &&
-  Array.isArray(publication.keywords) &&
-  publication.keywords.length > 0 && (
-    <div
+  {Array.isArray(publication?.keywords) && publication.keywords.length > 0 && (
+  <div
+    style={{
+      marginTop: "15px",
+      padding: "18px 20px",
+      backgroundColor: "#f8fafc",
+      border: "1px solid #e2e8f0",
+      borderRadius: "10px",
+    }}
+  >
+    <h3
       style={{
-        marginTop: "15px",
-        padding: "18px 20px",
-        backgroundColor: "#f8fafc",
-        border: "1px solid #e2e8f0",
-        borderRadius: "10px",
+        margin: "0 0 12px 0",
+        fontSize: "12px",
+        fontWeight: "700",
+        color: "#0D9488",
+        textTransform: "uppercase",
+        letterSpacing: "0.5px",
       }}
     >
-      <h3
-        style={{
-          margin: "0 0 12px 0",
-          fontSize: "12px",
-          fontWeight: "700",
-          color: "#0D9488",
-          textTransform: "uppercase",
-          letterSpacing: "0.5px",
-        }}
-      >
-        Keywords
-      </h3>
+      Keywords
+    </h3>
 
-      <p
-        style={{
-          margin: 0,
-          fontSize: "12px",
-          lineHeight: "1.7",
-          color: "#64748b",
-        }}
-      >
-        {publication.keywords.join("; ")}
-      </p>
-    </div>
-  )}
-
+    <p
+      style={{
+        margin: 0,
+        fontSize: "12px",
+        lineHeight: "1.7",
+        color: "#64748b",
+      }}
+    >
+      {publication.keywords.join("; ")}
+    </p>
+  </div>
+)}
       {/* Separador */}
       <div
         style={{
