@@ -3,7 +3,8 @@ export default function Publications() {
     {
       type: "Master's Thesis",
       year: "2026",
-      title: "Synthesis of Novel Chiral Penicillanates: Expansion of the β-Lactam Family",
+      title:
+        "Synthesis of Novel Chiral Penicillanates: Expansion of the β-Lactam Family",
       citation:
         "João Pedro Sousa e Silva SYNTHESIS OF NOVEL CHIRAL PENICILLANATES EXPANSION OF THE β-LACTAM FAMILY Dissertation in the context of the Master’s Degree in Chemistry, specialisation in Advanced and Industrial Chemistry, supervised by Professor Teresa M. V. D. Pinho e Melo, tutored by MSc Jéssica Maria Pinto Macedo and presented to the Department of Chemistry of the Faculty of Sciences and Technology of the University of Coimbra. September 2026",
       doi: "",
@@ -26,12 +27,14 @@ export default function Publications() {
         "continuous-flow chemistry",
       ],
     },
+
     {
       type: "Conference Presentation/Abstract",
       year: "2026",
-      title: "Novel Spiro-beta-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents",
+      title:
+        "Novel Spiro-beta-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents",
       citation:
-        "Novel Spiro-beta-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents, João Pedro Sousa e Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, 2026 AIMS Meeting – Annual International Medical Students Meeting, Associação de Estudantes da Faculdade de Medicina de Lisboa, Abril 2026, Lisboa.",    
+        "Novel Spiro-beta-Lactams as Broad-Spectrum Host-Directed Antimicrobial Agents, João Pedro Sousa e Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, 2026 AIMS Meeting – Annual International Medical Students Meeting, Associação de Estudantes da Faculdade de Medicina de Lisboa, Abril 2026, Lisboa.",
       doi: "",
       abstract: [
         {
@@ -42,38 +45,40 @@ export default function Publications() {
         {
           heading: "Objectives",
           text:
-            "This work aims to expand the chemical space of bioactive spiro-β-lactams through the development of new synthetic methodologies leading to structurally diverse chiral spiropenicillanates with potential application as new broad-spectrum antivirals. ",
+            "This work aims to expand the chemical space of bioactive spiro-β-lactams through the development of new synthetic methodologies leading to structurally diverse chiral spiropenicillanates with potential application as new broad-spectrum antivirals.",
         },
         {
           heading: "Methods",
           text:
-            "The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates, respectively. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral β-lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed. ",
+            "The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates, respectively. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral β-lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed.",
         },
         {
           heading: "Results",
           text:
-            "The reactions enabled the formation of structurally diverse β-lactam derivatives through divergent reaction pathways. Depending on the catalyst employed, either spirocyclic products arising from formal [4+2] annulation reactions or chiral allene-bearing penicillanates generated via Rauhut–Currier processes were obtained. DABCO promoted both pathways, yielding mixtures of spirocyclic and allenic products, whereas DMAP selectively afforded spirocyclic derivatives. Optimization studies demonstrated that reaction conditions significantly influence product distribution and yield. Continuous flow synthesis provided comparable selectivity while considerably reducing reaction times. ",
+            "The reactions enabled the formation of structurally diverse β-lactam derivatives through divergent reaction pathways. Depending on the catalyst employed, either spirocyclic products arising from formal [4+2] annulation reactions or chiral allene-bearing penicillanates generated via Rauhut–Currier processes were obtained. DABCO promoted both pathways, yielding mixtures of spirocyclic and allenic products, whereas DMAP selectively afforded spirocyclic derivatives. Optimization studies demonstrated that reaction conditions significantly influence product distribution and yield. Continuous flow synthesis provided comparable selectivity while considerably reducing reaction times.",
         },
         {
           heading: "Discussion and Conclusions",
           text:
-            "These results demonstrate that nitrogen-base-catalysed annulation reactions constitute an efficient strategy for generating structurally diverse chiral spiropenicillanates. The methodology expands the accessible chemical space of spiro-β-lactams and provides new scaffolds for future evaluation as potential broad-spectrum antivirals targeting RNA virus infections. ",
+            "These results demonstrate that nitrogen-base-catalysed annulation reactions constitute an efficient strategy for generating structurally diverse chiral spiropenicillanates. The methodology expands the accessible chemical space of spiro-β-lactams and provides new scaffolds for future evaluation as potential broad-spectrum antivirals targeting RNA virus infections.",
         },
       ],
       keywords: [],
     },
+
     {
       type: "Conference Presentation/Abstract",
       year: "2026",
-      title: "Allene-Driven Construction of Structurally Diverse Chiral Spiro-β-Lactams from 6-Alkylidenepenicillanates",
+      title:
+        "Allene-Driven Construction of Structurally Diverse Chiral Spiro-β-Lactams from 6-Alkylidenepenicillanates",
       citation:
         "Allene-Driven Construction of Structurally Diverse Chiral Spiro-β-Lactams from 6-Alkylidenepenicillanates, João P. S. Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, 16.º Encontro Nacional de Química Orgânica (ENQO) / 9.º Encontro Nacional de Química Medicinal e Biológica, Faculdade de Ciências, Universidade de Lisboa, 11-13 de Fevereiro 2026.",
       doi: "",
       abstract: [
         {
-          heading: [],
+          heading: "",
           text:
-            "Influenza, respiratory syncytial virus, and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Most of the scarcely available drugs for these RNA viruses are virus-specific, leading to drug resistance. The development of broad-spectrum host-directed antivirals offers a promising solution to this challenge, exemplified by the recent discovery of novel spiropenicillanates with a disruptive therapeutic profile by our research team. This work focuses on expanding the chemical space of chiral spiro-β-lactams derived from 6-alkylidenepenicillanates. Triphenylphosphine-catalysed formal [3+2] cycloaddition of allenyl ketones and tetrazolyl-allenes afforded spirocyclopentene-β-lactams with a novel substitution pattern. The use of nitrogen-containing bases allowed for divergent annulation pathways, enabling access to previously unexplored spiropyran, spirodihydropyran, and allene-bearing penicillanates.  ",
+            "Influenza, respiratory syncytial virus, and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Most of the scarcely available drugs for these RNA viruses are virus-specific, leading to drug resistance. The development of broad-spectrum host-directed antivirals offers a promising solution to this challenge, exemplified by the recent discovery of novel spiropenicillanates with a disruptive therapeutic profile by our research team. This work focuses on expanding the chemical space of chiral spiro-β-lactams derived from 6-alkylidenepenicillanates. Triphenylphosphine-catalysed formal [3+2] cycloaddition of allenyl ketones and tetrazolyl-allenes afforded spirocyclopentene-β-lactams with a novel substitution pattern. The use of nitrogen-containing bases allowed for divergent annulation pathways, enabling access to previously unexplored spiropyran, spirodihydropyran, and allene-bearing penicillanates.",
         },
       ],
       keywords: [],
@@ -88,14 +93,16 @@ export default function Publications() {
         "Novel Spiro-b-lactams as Broad-Spectrum Host-Directed Antimicrobial Agents: Enhancing Preparedness for Emerging Viral Threats and Future Pandemics",
       citation:
         "Novel Spiro-b-lactams as Broad-Spectrum Host-Directed Antimicrobial Agents: Enhancing Preparedness for Emerging Viral Threats and Future Pandemics, João P. S. Silva, Jéssica Macedo, Américo J. S, Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, IMS Day 2025, 28 November 2025, Instituto Superior Técnico, Lisboa.",
+      doi: "",
       abstract: [
         {
           heading: "",
           text:
-            "Influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Few effective drugs are currently available for these RNA viruses, and most are virus-specific, leading to drug resistance. The development of broad-spectrum antivirals that can overcome resistance is a high priority and will make a major contribution to the treatment of infections caused by RNA viruses, thereby improving preparedness for pandemic threats posed by these viruses. Recently, our research team has unveiled a series of spiropenicillanates with potent in vitro activity against HIV, influenza and SARS-CoV-2. The current study goes further on penicillanates’ research and drug development as potential new broad spectrum antivirals by exploring different methodologies to expand the chemical space. The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral -lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed.",
-       },
+            "Influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Few effective drugs are currently available for these RNA viruses, and most are virus-specific, leading to drug resistance. The development of broad-spectrum antivirals that can overcome resistance is a high priority and will make a major contribution to the treatment of infections caused by RNA viruses, thereby improving preparedness for pandemic threats posed by these viruses. Recently, our research team has unveiled a series of spiropenicillanates with potent in vitro activity against HIV, influenza and SARS-CoV-2. The current study goes further on penicillanates’ research and drug development as potential new broad spectrum antivirals by exploring different methodologies to expand the chemical space. The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral β-lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed.",
+        },
       ],
     },
+
     {
       type: "Flash Communication",
       year: "2025",
@@ -108,10 +115,11 @@ export default function Publications() {
         {
           heading: "",
           text:
-            "Spirocyclic β-lactams are privileged scaffolds in medicinal chemistry due to their rigid three-dimensional architecture, high fraction of sp³-hybridized carbons, and favourable pharmacokinetic profiles. These features contribute to enhanced bioavailability, metabolic stability, and target selectivity. Our group has previously developed spiro-β-lactam derivatives, including the lead compound BSS-730A, which displays potent, broad-spectrum host-directed antiviral activity. The urgent need for broad-spectrum antivirals (BSAs) is underscored by the recurring emergence of RNA viruses. Traditional antiviral therapies typically target virus-specific proteins and are susceptible to rapid resistance development. In contrast, host directed antivirals (HDAs) offer a promising alternative, acting on conserved host cell pathways essential for viral replication."
+            "Spirocyclic β-lactams are privileged scaffolds in medicinal chemistry due to their rigid three-dimensional architecture, high fraction of sp³-hybridized carbons, and favourable pharmacokinetic profiles. These features contribute to enhanced bioavailability, metabolic stability, and target selectivity. Our group has previously developed spiro-β-lactam derivatives, including the lead compound BSS-730A, which displays potent, broad-spectrum host-directed antiviral activity. The urgent need for broad-spectrum antivirals (BSAs) is underscored by the recurring emergence of RNA viruses. Traditional antiviral therapies typically target virus-specific proteins and are susceptible to rapid resistance development. In contrast, host directed antivirals (HDAs) offer a promising alternative, acting on conserved host cell pathways essential for viral replication.",
         },
       ],
     },
+
     {
       type: "Symposium Presentation/Abstract",
       year: "2025",
@@ -124,18 +132,19 @@ export default function Publications() {
         {
           heading: "",
           text:
-            "Influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Few effective drugs are currently available for these RNA viruses, and most are virus-specific, leading to drug resistance. The development of broad-spectrum antivirals that can overcome resistance is a high priority and will make a major contribution to the treatment of infections caused by RNA viruses, thereby improving preparedness for pandemic threats posed by these viruses. Recently, our research team has unveiled a series of spiropenicillanates with potent in vitro activity against HIV, influenza and SARS-CoV-2. The current study goes further on penicillanates’ research and drug development as potential new broad spectrum antivirals by exploring different methodologies to expand the chemical space. The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral -lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed.",
-  },
+            "Influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Few effective drugs are currently available for these RNA viruses, and most are virus-specific, leading to drug resistance. The development of broad-spectrum antivirals that can overcome resistance is a high priority and will make a major contribution to the treatment of infections caused by RNA viruses, thereby improving preparedness for pandemic threats posed by these viruses. Recently, our research team has unveiled a series of spiropenicillanates with potent in vitro activity against HIV, influenza and SARS-CoV-2. The current study goes further on penicillanates’ research and drug development as potential new broad spectrum antivirals by exploring different methodologies to expand the chemical space. The novel chiral penicillanates were obtained by carrying out the reaction of 6-alkylidenepenicillanates with allenoates catalysed by nitrogen-containing bases using batch and continuous flow techniques. Preliminary results have shown that both DABCO and DMAP lead to the efficient synthesis of spiropyran-penicillanates and spirodihydropiran-penicillanates. It is also noteworthy that DABCO-catalysed reactions offer a pathway for the synthesis of chiral β-lactams bearing an allenoate moiety obtained via the Rauhut-Currier reaction. It should be noted that a wide range of natural compounds bearing allenic groups have been shown to possess biological activity, highlighting the potential of these newly synthesized derivatives. The antiviral activity of the new penicillanates and further details of this study will be disclosed.",
+        },
       ],
     },
+
     {
       type: "Original Article",
       year: "2025",
       title:
-        "Synthesis of Chiral Spirocyclopropanepenicillanates via [2 + 1] Annulation of 6‑Alkylidenepenicillanates and Sulfur Ylides",
+        "Synthesis of Chiral Spirocyclopropanepenicillanates via [2 + 1] Annulation of 6-Alkylidenepenicillanates and Sulfur Ylides",
       citation:
-        "João V. R. Gonçalves, Ricardo M. Carvalho, Jéssica Macedo, Paloma Gonçalves, Inês Bártolo, Américo J. S. Alves, José A. Paixão, Nuno Taveira, Teresa M. V. D. Pinho e Melo; Synthesis of Chiral Spirocyclopropanepenicillanates via [2 + 1] Annulation of 6‑Alkylidenepenicillanates and Sulfur Ylides. Journal of Organic Chemistry 25 July 2025; 90 (29): 10225–10234.",
-      doi: "https://doi.org/10.1021/acs.joc.5c00743",
+        "João V. R. Gonçalves, Ricardo M. Carvalho, Jéssica Macedo, Paloma Gonçalves, Inês Bártolo, Américo J. S. Alves, José A. Paixão, Nuno Taveira, Teresa M. V. D. Pinho e Melo; Synthesis of Chiral Spirocyclopropanepenicillanates via [2 + 1] Annulation of 6-Alkylidenepenicillanates and Sulfur Ylides. Journal of Organic Chemistry 25 July 2025; 90 (29): 10225–10234.",
+      doi: "10.1021/acs.joc.5c00743",
       abstract: [
         {
           heading: "",
@@ -144,6 +153,7 @@ export default function Publications() {
         },
       ],
     },
+
     {
       type: "Conference Presentation/Abstract",
       year: "2025",
@@ -230,7 +240,8 @@ export default function Publications() {
     {
       type: "Original Article",
       year: "2021",
-      title: "Spiro-β-lactam BSS-730A Displays Potent Activity against HIV and Plasmodium.",
+      title:
+        "Spiro-β-lactam BSS-730A Displays Potent Activity against HIV and Plasmodium.",
       citation:
         "Bártolo I, Santos BS, Fontinha D, Machado M, Francisco D, Sepodes B, et al. Spiro-β-lactam BSS-730A Displays Potent Activity against HIV and Plasmodium. ACS Infect Dis. 2021 Feb 12;7(2):421–34.",
       doi: "10.1021/acsinfecdis.0c00768",
@@ -427,7 +438,7 @@ export default function Publications() {
                 {publication.citation}
               </p>
 
-              {/* DOI — só aparece quando existe */}
+              {/* DOI */}
               {publication.doi && (
                 <p
                   style={{
@@ -436,7 +447,10 @@ export default function Publications() {
                   }}
                 >
                   <a
-                    href={`https://doi.org/${publication.doi}`}
+                    href={`https://doi.org/${publication.doi.replace(
+                      "https://doi.org/",
+                      ""
+                    )}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -445,7 +459,11 @@ export default function Publications() {
                       fontWeight: "600",
                     }}
                   >
-                    doi:{publication.doi}
+                    doi:
+                    {publication.doi.replace(
+                      "https://doi.org/",
+                      ""
+                    )}
                   </a>
                 </p>
               )}
@@ -484,18 +502,19 @@ export default function Publications() {
               >
                 {publication.abstract.map((section, sectionIndex) => (
                   <div key={sectionIndex}>
-                    {section.heading && (
-                      <h4
-                        style={{
-                          margin: "0 0 4px 0",
-                          fontSize: "12px",
-                          fontWeight: "700",
-                          color: "#334155",
-                        }}
-                      >
-                        {section.heading}
-                      </h4>
-                    )}
+                    {section.heading &&
+                      typeof section.heading === "string" && (
+                        <h4
+                          style={{
+                            margin: "0 0 4px 0",
+                            fontSize: "12px",
+                            fontWeight: "700",
+                            color: "#334155",
+                          }}
+                        >
+                          {section.heading}
+                        </h4>
+                      )}
 
                     <p
                       style={{
@@ -513,41 +532,46 @@ export default function Publications() {
             </div>
 
             {/* Caixa das Keywords */}
-  {Array.isArray(publication?.keywords) && publication.keywords.length > 0 && (
-  <div
-    style={{
-      marginTop: "15px",
-      padding: "18px 20px",
-      backgroundColor: "#f8fafc",
-      border: "1px solid #e2e8f0",
-      borderRadius: "10px",
-    }}
-  >
-    <h3
-      style={{
-        margin: "0 0 12px 0",
-        fontSize: "12px",
-        fontWeight: "700",
-        color: "#0D9488",
-        textTransform: "uppercase",
-        letterSpacing: "0.5px",
-      }}
-    >
-      Keywords
-    </h3>
+            {Array.isArray(publication.keywords) &&
+              publication.keywords.length > 0 && (
+                <div
+                  style={{
+                    marginTop: "15px",
+                    padding: "18px 20px",
+                    backgroundColor: "#f8fafc",
+                    border: "1px solid #e2e8f0",
+                    borderRadius: "10px",
+                  }}
+                >
+                  <h3
+                    style={{
+                      margin: "0 0 12px 0",
+                      fontSize: "12px",
+                      fontWeight: "700",
+                      color: "#0D9488",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.5px",
+                    }}
+                  >
+                    Keywords
+                  </h3>
 
-    <p
-      style={{
-        margin: 0,
-        fontSize: "12px",
-        lineHeight: "1.7",
-        color: "#64748b",
-      }}
-    >
-      {publication.keywords.join("; ")}
-    </p>
-  </div>
-)}
+                  <p
+                    style={{
+                      margin: 0,
+                      fontSize: "12px",
+                      lineHeight: "1.7",
+                      color: "#64748b",
+                    }}
+                  >
+                    {publication.keywords.join("; ")}
+                  </p>
+                </div>
+              )}
+          </article>
+        ))}
+      </section>
+
       {/* Separador */}
       <div
         style={{
@@ -593,7 +617,7 @@ export default function Publications() {
       >
         {relatedPublications.map((publication, index) => (
           <article
-            key={publication.doi}
+            key={`${publication.type}-${publication.year}-${index}`}
             style={{
               backgroundColor: "#ffffff",
               border: "1px solid #dbe5ee",
@@ -716,7 +740,10 @@ export default function Publications() {
                   }}
                 >
                   <a
-                    href={`https://doi.org/${publication.doi}`}
+                    href={`https://doi.org/${publication.doi.replace(
+                      "https://doi.org/",
+                      ""
+                    )}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -725,7 +752,11 @@ export default function Publications() {
                       fontWeight: "600",
                     }}
                   >
-                    doi:{publication.doi}
+                    doi:
+                    {publication.doi.replace(
+                      "https://doi.org/",
+                      ""
+                    )}
                   </a>
                 </p>
               )}
@@ -764,18 +795,19 @@ export default function Publications() {
               >
                 {publication.abstract.map((section, sectionIndex) => (
                   <div key={sectionIndex}>
-                    {section.heading && (
-                      <h4
-                        style={{
-                          margin: "0 0 4px 0",
-                          fontSize: "12px",
-                          fontWeight: "700",
-                          color: "#334155",
-                        }}
-                      >
-                        {section.heading}
-                      </h4>
-                    )}
+                    {section.heading &&
+                      typeof section.heading === "string" && (
+                        <h4
+                          style={{
+                            margin: "0 0 4px 0",
+                            fontSize: "12px",
+                            fontWeight: "700",
+                            color: "#334155",
+                          }}
+                        >
+                          {section.heading}
+                        </h4>
+                      )}
 
                     <p
                       style={{
