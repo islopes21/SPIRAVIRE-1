@@ -60,7 +60,7 @@ export default function Publications() {
             "These results demonstrate that nitrogen-base-catalysed annulation reactions constitute an efficient strategy for generating structurally diverse chiral spiropenicillanates. The methodology expands the accessible chemical space of spiro-β-lactams and provides new scaffolds for future evaluation as potential broad-spectrum antivirals targeting RNA virus infections. ",
         },
       ],
-      keywords: "",
+      keywords: [],
     },
     {
       type: "Conference Presentation/Abstract",
@@ -71,7 +71,7 @@ export default function Publications() {
       doi: "",
       abstract: [
         {
-          heading: "",
+          heading: [],
           text:
             "Influenza, respiratory syncytial virus, and SARS-CoV-2 are high-burden respiratory pathogens that disrupt healthcare systems and devastate economies. Most of the scarcely available drugs for these RNA viruses are virus-specific, leading to drug resistance. The development of broad-spectrum host-directed antivirals offers a promising solution to this challenge, exemplified by the recent discovery of novel spiropenicillanates with a disruptive therapeutic profile by our research team. This work focuses on expanding the chemical space of chiral spiro-β-lactams derived from 6-alkylidenepenicillanates. Triphenylphosphine-catalysed formal [3+2] cycloaddition of allenyl ketones and tetrazolyl-allenes afforded spirocyclopentene-β-lactams with a novel substitution pattern. The use of nitrogen-containing bases allowed for divergent annulation pathways, enabling access to previously unexplored spiropyran, spirodihydropyran, and allene-bearing penicillanates.  ",
         },
