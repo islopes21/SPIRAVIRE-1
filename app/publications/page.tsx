@@ -91,7 +91,8 @@ export default function Publications() {
       title:
         "Novel Spiro-b-lactams as Broad-Spectrum Host-Directed Antimicrobial Agents: Enhancing Preparedness for Emerging Viral Threats and Future Pandemics",
       citation:
-        "Novel Spiro-b-lactams as Broad-Spectrum Host-Directed Antimicrobial Agents: Enhancing Preparedness for Emerging Viral Threats and Future Pandemics, João P. S. Silva, Jéssica Macedo, Américo J. S, Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, IMS Day 2025, 28 November 2025, Instituto Superior Técnico, Lisboa."      abstract: [
+        "Novel Spiro-b-lactams as Broad-Spectrum Host-Directed Antimicrobial Agents: Enhancing Preparedness for Emerging Viral Threats and Future Pandemics, João P. S. Silva, Jéssica Macedo, Américo J. S, Alves, Inês Bártolo, Nuno Taveira, Teresa M. V. D. Pinho e Melo, IMS Day 2025, 28 November 2025, Instituto Superior Técnico, Lisboa.",
+      abstract: [
         {
           heading: "",
           text:
@@ -105,7 +106,8 @@ export default function Publications() {
       title:
         "Development of Chiral Spiropenicillanates Through Nitrogen-Base Catalysed Allenoate Reactions: Expanding β-Lactam Chemical Space",
       citation:
-        "Development of Chiral Spiropenicillanates Through Nitrogen-Base Catalysed Allenoate Reactions: Expanding β-Lactam Chemical Space, João P. S. Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V D. Pinho e Melo, International Symposium on Synthesis and Catalysis (ISySyCat 2025), 2-5 de Setembro de 2025, Coimbra."      doi: "",
+        "Development of Chiral Spiropenicillanates Through Nitrogen-Base Catalysed Allenoate Reactions: Expanding β-Lactam Chemical Space, João P. S. Silva, Jéssica Macedo, Américo J. S. Alves, Inês Bártolo, Nuno Taveira, Teresa M. V D. Pinho e Melo, International Symposium on Synthesis and Catalysis (ISySyCat 2025), 2-5 de Setembro de 2025, Coimbra.",
+      doi: "",
       abstract: [
         {
           heading: "",
