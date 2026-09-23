@@ -60,7 +60,7 @@ export default function Home() {
         {/* Bruna Costa */}
         <div style={{ textAlign: "center" }}>
           <Image
-            src="/Unknown.png"
+            src="/BrunaCosta.png"
             alt="Bruna Costa"
             width={200}
             height={200}
@@ -69,7 +69,7 @@ export default function Home() {
 
           <h3>Bruna Costa, MD</h3>
 
-          <p>CiênciaID:</p>
+          <p>CiênciaID: 801C-A8BE-0405</p>
         </div>
       </div>
     </main>
